@@ -67,7 +67,7 @@
 	[mapView regionThatFits:region];
 	[self.view insertSubview:mapView atIndex:0];
 	
-	NSLog(@"Exit viewDidLoad");
+	NSLog(@"Exit viewDidLoad");	
 }
 
 - (IBAction)showInfo {

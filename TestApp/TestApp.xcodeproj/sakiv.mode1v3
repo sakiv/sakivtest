@@ -353,7 +353,7 @@
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>6F030621128E609D00ABF821</string>
+										<string>6F0306A1128E63AD00ABF821</string>
 										<key>history</key>
 										<array>
 											<string>6FFB4890128A37CF005E23DD</string>
@@ -370,7 +370,7 @@
 											<string>6FEC5BEF128E4E45007ED2EF</string>
 											<string>6FEC5C16128E4F2A007ED2EF</string>
 											<string>6F2A27AD128E5C6400AF3925</string>
-											<string>6F2A27D8128E5FE500AF3925</string>
+											<string>6F030621128E609D00ABF821</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -382,14 +382,14 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 0}, {914, 459}}</string>
+								<string>{{0, 0}, {914, 452}}</string>
 								<key>RubberWindowFrame</key>
 								<string>87 55 1192 723 0 0 1280 778 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXNavigatorGroup</string>
 							<key>Proportion</key>
-							<string>459pt</string>
+							<string>452pt</string>
 						</dict>
 						<dict>
 							<key>ContentConfiguration</key>
@@ -402,14 +402,14 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 464}, {914, 218}}</string>
+								<string>{{0, 457}, {914, 225}}</string>
 								<key>RubberWindowFrame</key>
 								<string>87 55 1192 723 0 0 1280 778 </string>
 							</dict>
 							<key>Module</key>
 							<string>XCDetailModule</string>
 							<key>Proportion</key>
-							<string>218pt</string>
+							<string>225pt</string>
 						</dict>
 					</array>
 					<key>Proportion</key>
@@ -428,9 +428,9 @@
 			</array>
 			<key>TableOfContents</key>
 			<array>
-				<string>6F030622128E609D00ABF821</string>
+				<string>6F0306A2128E63AD00ABF821</string>
 				<string>1CE0B1FE06471DED0097A5F4</string>
-				<string>6F030623128E609D00ABF821</string>
+				<string>6F0306A3128E63AD00ABF821</string>
 				<string>1CE0B20306471E060097A5F4</string>
 				<string>1CE0B20506471E060097A5F4</string>
 			</array>
@@ -551,7 +551,7 @@
 	<key>StatusbarIsVisible</key>
 	<true/>
 	<key>TimeStamp</key>
-	<real>311320733.83076203</real>
+	<real>311321517.836824</real>
 	<key>ToolbarConfigUserDefaultsMinorVersion</key>
 	<string>2</string>
 	<key>ToolbarDisplayMode</key>
@@ -568,7 +568,6 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
-		<string>1CD10A99069EF8BA00B06720</string>
 		<string>6F0669141283C7AB0042C0A2</string>
 		<string>/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp.xcodeproj</string>
 	</array>
@@ -650,7 +649,7 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>6F0669141283C7AB0042C0A2</string>
-				<string>6F030624128E609D00ABF821</string>
+				<string>6F0306A4128E63AD00ABF821</string>
 				<string>1CD0528F0623707200166675</string>
 				<string>XCMainBuildResultsModuleGUID</string>
 			</array>

@@ -1,841 +1,0 @@
-TTestApp
-v7
-r0
-t311317508.839602
-cCheck dependencies
-cCpResource build/Release-iphoneos/TestApp.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/ResourceRules.plist
-cProcessInfoPlistFile /Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/Release-iphoneos/TestApp.app/Info.plist TestApp-Info.plist
-cCompileXIB /Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/MainWindow.xib
-cCompileXIB /Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/SecondView.xib
-cCompileXIB /Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/FirstView.xib
-cCompileXIB /Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/ThirdView.xib
-cCompileXIB /Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/MapView.xib
-cCopyPNGFile /Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/Release-iphoneos/TestApp.app/Icon.black.png Images/Icon.black.png
-cCopyPNGFile /Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/Release-iphoneos/TestApp.app/Icon.png Images/Icon.png
-cCopyPNGFile /Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/Release-iphoneos/TestApp.app/Icon.white.png Images/Icon.white.png
-cProcessPCH /var/folders/XA/XAqAmTYCFUGmvEcbwsO8mU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TestApp_Prefix-fkugquopwyczwedbritcimkvwosr/TestApp_Prefix.pch.gch TestApp_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
-cProcessPCH /var/folders/XA/XAqAmTYCFUGmvEcbwsO8mU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TestApp_Prefix-ayjfnmghbbzkecbjvwqejgmhwvzd/TestApp_Prefix.pch.gch TestApp_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/TestApp.build/Release-iphoneos/TestApp.build/Objects-normal/armv6/main.o /Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/main.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/TestApp.build/Release-iphoneos/TestApp.build/Objects-normal/armv6/TestAppAppDelegate.o /Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/Classes/TestAppAppDelegate.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/TestApp.build/Release-iphoneos/TestApp.build/Objects-normal/armv6/FirstViewController.o /Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/Classes/FirstViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/TestApp.build/Release-iphoneos/TestApp.build/Objects-normal/armv6/SecondViewController.o /Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/Classes/SecondViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/TestApp.build/Release-iphoneos/TestApp.build/Objects-normal/armv6/ThirdViewController.o /Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/Classes/ThirdViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/TestApp.build/Release-iphoneos/TestApp.build/Objects-normal/armv6/MapViewController.o /Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/Classes/MapViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-cLd /Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/TestApp.build/Release-iphoneos/TestApp.build/Objects-normal/armv6/TestApp normal armv6
-cCompileC build/TestApp.build/Release-iphoneos/TestApp.build/Objects-normal/armv7/main.o /Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/main.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/TestApp.build/Release-iphoneos/TestApp.build/Objects-normal/armv7/TestAppAppDelegate.o /Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/Classes/TestAppAppDelegate.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/TestApp.build/Release-iphoneos/TestApp.build/Objects-normal/armv7/FirstViewController.o /Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/Classes/FirstViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/TestApp.build/Release-iphoneos/TestApp.build/Objects-normal/armv7/SecondViewController.o /Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/Classes/SecondViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/TestApp.build/Release-iphoneos/TestApp.build/Objects-normal/armv7/ThirdViewController.o /Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/Classes/ThirdViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/TestApp.build/Release-iphoneos/TestApp.build/Objects-normal/armv7/MapViewController.o /Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/Classes/MapViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-cLd /Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/TestApp.build/Release-iphoneos/TestApp.build/Objects-normal/armv7/TestApp normal armv7
-cCreateUniversalBinary /Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/Release-iphoneos/TestApp.app/TestApp normal "armv6 armv7"
-cGenerateDSYMFile /Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/Release-iphoneos/TestApp.app.dSYM /Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/Release-iphoneos/TestApp.app/TestApp
-cProcessProductPackaging "/Users/sakiv/Library/MobileDevice/Provisioning Profiles/29970ADA-6FDE-4A30-A17A-B8B86F22AD3A.mobileprovision" /Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/Release-iphoneos/TestApp.app/embedded.mobileprovision
-cTouch /Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/Release-iphoneos/TestApp.app
-cProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/Entitlements.plist /Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/TestApp.build/Release-iphoneos/TestApp.build/TestApp.xcent
-cCodeSign /Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/Release-iphoneos/TestApp.app
-cValidate /Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/Release-iphoneos/TestApp.app
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk
-c000000004C6DE9E30000000000000110
-t1282271715
-s272
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/Entitlements.plist
-c000000004C578FA900000000000001A7
-t1280806825
-s423
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/ResourceRules.plist
-c000000004C578FA900000000000001E5
-t1280806825
-s485
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
-c000000004C5A51050000000000345F00
-t1280987397
-s3432192
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
-c000000004C5A52B100000000003E1EF0
-t1280987825
-s4071152
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
-c000000004C5A527F0000000000001466
-t1280987775
-s5222
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/System/Library/Frameworks/MapKit.framework/Headers/MapKit.h
-c000000004C6C31EB00000000000002FE
-t1282159083
-s766
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/System/Library/Frameworks/MapKit.framework/MapKit
-c000000004C6C320B00000000002801E0
-t1282159115
-s2621920
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
-c000000004C62427000000000000009CD
-t1281507952
-s2509
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/System/Library/Frameworks/UIKit.framework/UIKit
-c000000004C62430F0000000002EBC2B0
-t1281508111
-s49005232
-
-N/Users/sakiv/Library/MobileDevice/Provisioning Profiles/29970ADA-6FDE-4A30-A17A-B8B86F22AD3A.mobileprovision
-c000000004CD38EC20000000000001BFF
-t1288933058
-s7167
-
-N/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/Classes/FirstViewController.h
-c000000004CD38FF600000000000000E4
-t1288933366
-s228
-i<UIKit/UIKit.h>
-
-N/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/Classes/FirstViewController.m
-c000000004CD38FF600000000000005AB
-t1288933366
-s1451
-i"FirstViewController.h"
-
-N/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/Classes/MapViewController.h
-c000000004CDE00CA0000000000000128
-t1289617610
-s296
-i<UIKit/UIKit.h>
-i<MapKit/MapKit.h>
-
-N/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/Classes/MapViewController.m
-c000000004CDE1B620000000000000905
-t1289624418
-s2309
-i"MapViewController.h"
-
-N/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/Classes/SecondViewController.h
-c000000004CD6F7B900000000000000E6
-t1289156537
-s230
-i<UIKit/UIKit.h>
-
-N/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/Classes/SecondViewController.m
-c000000004CD6F7B9000000000000061A
-t1289156537
-s1562
-i"SecondViewController.h"
-
-N/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/Classes/TestAppAppDelegate.h
-c000000004CD38FF600000000000001D3
-t1288933366
-s467
-i<UIKit/UIKit.h>
-
-N/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/Classes/TestAppAppDelegate.m
-c000000004CDE014C0000000000000D8E
-t1289617740
-s3470
-i"TestAppAppDelegate.h"
-
-N/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/Classes/ThirdViewController.h
-c000000004CD6F7F100000000000000E4
-t1289156593
-s228
-i<UIKit/UIKit.h>
-
-N/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/Classes/ThirdViewController.m
-c000000004CD6F7DE0000000000000617
-t1289156574
-s1559
-i"ThirdViewController.h"
-
-N/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/FirstView.xib
-c000000004CD6F7110000000000004A1C
-t1289156369
-s18972
-
-N/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/Images/Icon.black.png
-c000000004CDE13DD0000000000001910
-t1289622493
-s6416
-
-N/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/Images/Icon.png
-c000000004CDE13B30000000000001910
-t1289622451
-s6416
-
-N/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/Images/Icon.white.png
-c000000004CDE13EE0000000000001910
-t1289622510
-s6416
-
-N/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/MainWindow.xib
-c000000004CDDF8FB00000000000076AF
-t1289615611
-s30383
-
-N/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/MapView.xib
-c000000004CDE00C20000000000004195
-t1289617602
-s16789
-
-N/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/SecondView.xib
-c000000004CD38FF600000000000049CF
-t1288933366
-s18895
-
-N/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/TestApp_Prefix.pch
-c000000004CD38FF600000000000000B7
-t1288933366
-s183
-i<Foundation/Foundation.h>
-i<UIKit/UIKit.h>
-
-N/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/ThirdView.xib
-c000000004CDE01E50000000000004C1E
-t1289617893
-s19486
-
-N/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/Release-iphoneos/TestApp.app
-t1289624521
-s578
-
-N/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/Release-iphoneos/TestApp.app.dSYM
-t1289624521
-s102
-
-N/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/Release-iphoneos/TestApp.app/FirstView.nib
-t1289623603
-s2879
-
-N/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/Release-iphoneos/TestApp.app/Icon.black.png
-t1289623603
-s5656
-
-N/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/Release-iphoneos/TestApp.app/Icon.png
-t1289623603
-s5656
-
-N/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/Release-iphoneos/TestApp.app/Icon.white.png
-t1289623603
-s5656
-
-N/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/Release-iphoneos/TestApp.app/Info.plist
-t1289623601
-s754
-
-N/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/Release-iphoneos/TestApp.app/MainWindow.nib
-t1289623602
-s3446
-
-N/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/Release-iphoneos/TestApp.app/MapView.nib
-t1289623604
-s1812
-
-N/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/Release-iphoneos/TestApp.app/PkgInfo
-t1289623601
-s8
-
-N/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/Release-iphoneos/TestApp.app/ResourceRules.plist
-t1289623601
-s485
-
-N/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/Release-iphoneos/TestApp.app/SecondView.nib
-t1289623602
-s2876
-
-N/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/Release-iphoneos/TestApp.app/TestApp
-t1289624521
-s59024
-
-N/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/Release-iphoneos/TestApp.app/ThirdView.nib
-t1289623603
-s2873
-
-N/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/Release-iphoneos/TestApp.app/embedded.mobileprovision
-t1289623607
-s7167
-
-N/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/TestApp.build/Release-iphoneos/TestApp.build/Objects-normal/armv6/FirstViewController.o
-t1289623605
-s34384
-
-N/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/TestApp.build/Release-iphoneos/TestApp.build/Objects-normal/armv6/MapViewController.o
-t1289624521
-s39156
-
-N/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/TestApp.build/Release-iphoneos/TestApp.build/Objects-normal/armv6/SecondViewController.o
-t1289623605
-s34556
-
-N/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/TestApp.build/Release-iphoneos/TestApp.build/Objects-normal/armv6/TestApp
-t1289624521
-s20384
-
-N/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/TestApp.build/Release-iphoneos/TestApp.build/Objects-normal/armv6/TestApp.LinkFileList
-c000000004CDE18310000000000000337
-t1289623601
-s823
-
-N/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/TestApp.build/Release-iphoneos/TestApp.build/Objects-normal/armv6/TestAppAppDelegate.o
-t1289623605
-s50044
-
-N/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/TestApp.build/Release-iphoneos/TestApp.build/Objects-normal/armv6/ThirdViewController.o
-t1289623606
-s34536
-
-N/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/TestApp.build/Release-iphoneos/TestApp.build/Objects-normal/armv6/main.o
-t1289623605
-s6460
-
-N/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/TestApp.build/Release-iphoneos/TestApp.build/Objects-normal/armv7/FirstViewController.o
-t1289623606
-s34392
-
-N/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/TestApp.build/Release-iphoneos/TestApp.build/Objects-normal/armv7/MapViewController.o
-t1289624521
-s39184
-
-N/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/TestApp.build/Release-iphoneos/TestApp.build/Objects-normal/armv7/SecondViewController.o
-t1289623606
-s34568
-
-N/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/TestApp.build/Release-iphoneos/TestApp.build/Objects-normal/armv7/TestApp
-t1289624521
-s20384
-
-N/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/TestApp.build/Release-iphoneos/TestApp.build/Objects-normal/armv7/TestApp.LinkFileList
-c000000004CDE18310000000000000337
-t1289623601
-s823
-
-N/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/TestApp.build/Release-iphoneos/TestApp.build/Objects-normal/armv7/TestAppAppDelegate.o
-t1289623606
-s50052
-
-N/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/TestApp.build/Release-iphoneos/TestApp.build/Objects-normal/armv7/ThirdViewController.o
-t1289623606
-s34548
-
-N/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/TestApp.build/Release-iphoneos/TestApp.build/Objects-normal/armv7/main.o
-t1289623606
-s6440
-
-N/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/TestApp.build/Release-iphoneos/TestApp.build/StaticAnalyzer/normal/armv6/FirstViewController.plist
-t1289623606
-s276
-
-N/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/TestApp.build/Release-iphoneos/TestApp.build/StaticAnalyzer/normal/armv6/MapViewController.plist
-t1289623606
-s276
-
-N/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/TestApp.build/Release-iphoneos/TestApp.build/StaticAnalyzer/normal/armv6/SecondViewController.plist
-t1289623606
-s276
-
-N/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/TestApp.build/Release-iphoneos/TestApp.build/StaticAnalyzer/normal/armv6/TestAppAppDelegate.plist
-t1289623606
-s276
-
-N/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/TestApp.build/Release-iphoneos/TestApp.build/StaticAnalyzer/normal/armv6/ThirdViewController.plist
-t1289623606
-s276
-
-N/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/TestApp.build/Release-iphoneos/TestApp.build/StaticAnalyzer/normal/armv6/main.plist
-t1289623606
-s276
-
-N/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/TestApp.build/Release-iphoneos/TestApp.build/StaticAnalyzer/normal/armv7/FirstViewController.plist
-t1289623606
-s276
-
-N/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/TestApp.build/Release-iphoneos/TestApp.build/StaticAnalyzer/normal/armv7/MapViewController.plist
-t1289623607
-s276
-
-N/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/TestApp.build/Release-iphoneos/TestApp.build/StaticAnalyzer/normal/armv7/SecondViewController.plist
-t1289623606
-s276
-
-N/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/TestApp.build/Release-iphoneos/TestApp.build/StaticAnalyzer/normal/armv7/TestAppAppDelegate.plist
-t1289623606
-s276
-
-N/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/TestApp.build/Release-iphoneos/TestApp.build/StaticAnalyzer/normal/armv7/ThirdViewController.plist
-t1289623606
-s276
-
-N/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/TestApp.build/Release-iphoneos/TestApp.build/StaticAnalyzer/normal/armv7/main.plist
-t1289623606
-s276
-
-N/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/TestApp.build/Release-iphoneos/TestApp.build/TestApp.xcent
-t1289623607
-s408
-
-N/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/TestApp.build/Release-iphoneos/TestApp.build/com.apple.build-tools.platform.validate
-t2
-s0
-
-N/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/main.m
-c000000004CD38FF6000000000000015F
-t1288933366
-s351
-i<UIKit/UIKit.h>
-
-N/var/folders/XA/XAqAmTYCFUGmvEcbwsO8mU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TestApp_Prefix-ayjfnmghbbzkecbjvwqejgmhwvzd/TestApp_Prefix.pch.gch
-t1289623605
-s10094128
-
-N/var/folders/XA/XAqAmTYCFUGmvEcbwsO8mU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TestApp_Prefix-bvdxdlnienixieakzaucqpkwmisf/TestApp_Prefix.pch.pth
-t1289623605
-s2607364
-
-N/var/folders/XA/XAqAmTYCFUGmvEcbwsO8mU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TestApp_Prefix-cmzwwhobgizmjtgascoynewlprus/TestApp_Prefix.pch.pth
-t1289623605
-s2607200
-
-N/var/folders/XA/XAqAmTYCFUGmvEcbwsO8mU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TestApp_Prefix-fkugquopwyczwedbritcimkvwosr/TestApp_Prefix.pch.gch
-t1289623605
-s9639472
-
-NTestApp-Info.plist
-c000000004CDE1783000000000000038F
-t1289623427
-s911
-
-CAnalyze /Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/Classes/FirstViewController.m
-s311316406.803980
-e311316406.861478
-r1
-xAnalyze
-x/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/Classes/FirstViewController.m
-lSLF07#2@83"Analyze /Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/Classes/FirstViewController.m311316406#311316406#0(0"0(0#0#75"/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/Classes/FirstViewController.m8603903264#1927"    cd /Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk -fasm-blocks -gdwarf-2 -fvisibility=hidden -mthumb -miphoneos-version-min=4.1 -iquote /Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/TestApp.build/Release-iphoneos/TestApp.build/TestApp-generated-files.hmap -I/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/TestApp.build/Release-iphoneos/TestApp.build/TestApp-own-target-headers.hmap -I/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/TestApp.build/Release-iphoneos/TestApp.build/TestApp-all-target-headers.hmap -iquote /Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/TestApp.build/Release-iphoneos/TestApp.build/TestApp-project-headers.hmap -F/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/Release-iphoneos -I/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/Release-iphoneos/include -I/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/TestApp.build/Release-iphoneos/TestApp.build/DerivedSources/armv7 -I/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/TestApp.build/Release-iphoneos/TestApp.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/XA/XAqAmTYCFUGmvEcbwsO8mU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TestApp_Prefix-bvdxdlnienixieakzaucqpkwmisf/TestApp_Prefix.pch --analyze /Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/Classes/FirstViewController.m -o /Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/TestApp.build/Release-iphoneos/TestApp.build/StaticAnalyzer/normal/armv7/FirstViewController.plist0#
-
-CAnalyze /Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/Classes/MapViewController.m
-s311316406.925577
-e311316407.012688
-r1
-xAnalyze
-x/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/Classes/MapViewController.m
-lSLF07#2@81"Analyze /Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/Classes/MapViewController.m311316406#311316407#0(0"0(0#0#73"/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/Classes/MapViewController.m8604278784#1923"    cd /Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk -fasm-blocks -gdwarf-2 -fvisibility=hidden -mthumb -miphoneos-version-min=4.1 -iquote /Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/TestApp.build/Release-iphoneos/TestApp.build/TestApp-generated-files.hmap -I/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/TestApp.build/Release-iphoneos/TestApp.build/TestApp-own-target-headers.hmap -I/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/TestApp.build/Release-iphoneos/TestApp.build/TestApp-all-target-headers.hmap -iquote /Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/TestApp.build/Release-iphoneos/TestApp.build/TestApp-project-headers.hmap -F/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/Release-iphoneos -I/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/Release-iphoneos/include -I/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/TestApp.build/Release-iphoneos/TestApp.build/DerivedSources/armv7 -I/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/TestApp.build/Release-iphoneos/TestApp.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/XA/XAqAmTYCFUGmvEcbwsO8mU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TestApp_Prefix-bvdxdlnienixieakzaucqpkwmisf/TestApp_Prefix.pch --analyze /Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/Classes/MapViewController.m -o /Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/TestApp.build/Release-iphoneos/TestApp.build/StaticAnalyzer/normal/armv7/MapViewController.plist0#
-
-CAnalyze /Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/Classes/SecondViewController.m
-s311316406.846592
-e311316406.925477
-r1
-xAnalyze
-x/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/Classes/SecondViewController.m
-lSLF07#2@84"Analyze /Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/Classes/SecondViewController.m311316406#311316406#0(0"0(0#0#76"/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/Classes/SecondViewController.m8604391872#1929"    cd /Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk -fasm-blocks -gdwarf-2 -fvisibility=hidden -mthumb -miphoneos-version-min=4.1 -iquote /Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/TestApp.build/Release-iphoneos/TestApp.build/TestApp-generated-files.hmap -I/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/TestApp.build/Release-iphoneos/TestApp.build/TestApp-own-target-headers.hmap -I/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/TestApp.build/Release-iphoneos/TestApp.build/TestApp-all-target-headers.hmap -iquote /Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/TestApp.build/Release-iphoneos/TestApp.build/TestApp-project-headers.hmap -F/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/Release-iphoneos -I/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/Release-iphoneos/include -I/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/TestApp.build/Release-iphoneos/TestApp.build/DerivedSources/armv7 -I/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/TestApp.build/Release-iphoneos/TestApp.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/XA/XAqAmTYCFUGmvEcbwsO8mU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TestApp_Prefix-bvdxdlnienixieakzaucqpkwmisf/TestApp_Prefix.pch --analyze /Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/Classes/SecondViewController.m -o /Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/TestApp.build/Release-iphoneos/TestApp.build/StaticAnalyzer/normal/armv7/SecondViewController.plist0#
-
-CAnalyze /Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/Classes/TestAppAppDelegate.m
-s311316406.786459
-e311316406.846493
-r1
-xAnalyze
-x/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/Classes/TestAppAppDelegate.m
-lSLF07#2@82"Analyze /Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/Classes/TestAppAppDelegate.m311316406#311316406#0(0"0(0#0#74"/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/Classes/TestAppAppDelegate.m8603993376#1925"    cd /Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk -fasm-blocks -gdwarf-2 -fvisibility=hidden -mthumb -miphoneos-version-min=4.1 -iquote /Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/TestApp.build/Release-iphoneos/TestApp.build/TestApp-generated-files.hmap -I/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/TestApp.build/Release-iphoneos/TestApp.build/TestApp-own-target-headers.hmap -I/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/TestApp.build/Release-iphoneos/TestApp.build/TestApp-all-target-headers.hmap -iquote /Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/TestApp.build/Release-iphoneos/TestApp.build/TestApp-project-headers.hmap -F/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/Release-iphoneos -I/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/Release-iphoneos/include -I/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/TestApp.build/Release-iphoneos/TestApp.build/DerivedSources/armv7 -I/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/TestApp.build/Release-iphoneos/TestApp.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/XA/XAqAmTYCFUGmvEcbwsO8mU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TestApp_Prefix-bvdxdlnienixieakzaucqpkwmisf/TestApp_Prefix.pch --analyze /Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/Classes/TestAppAppDelegate.m -o /Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/TestApp.build/Release-iphoneos/TestApp.build/StaticAnalyzer/normal/armv7/TestAppAppDelegate.plist0#
-
-CAnalyze /Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/Classes/ThirdViewController.m
-s311316406.861579
-e311316406.935724
-r1
-xAnalyze
-x/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/Classes/ThirdViewController.m
-lSLF07#2@83"Analyze /Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/Classes/ThirdViewController.m311316406#311316406#0(0"0(0#0#75"/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/Classes/ThirdViewController.m8603775328#1927"    cd /Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk -fasm-blocks -gdwarf-2 -fvisibility=hidden -mthumb -miphoneos-version-min=4.1 -iquote /Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/TestApp.build/Release-iphoneos/TestApp.build/TestApp-generated-files.hmap -I/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/TestApp.build/Release-iphoneos/TestApp.build/TestApp-own-target-headers.hmap -I/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/TestApp.build/Release-iphoneos/TestApp.build/TestApp-all-target-headers.hmap -iquote /Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/TestApp.build/Release-iphoneos/TestApp.build/TestApp-project-headers.hmap -F/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/Release-iphoneos -I/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/Release-iphoneos/include -I/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/TestApp.build/Release-iphoneos/TestApp.build/DerivedSources/armv7 -I/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/TestApp.build/Release-iphoneos/TestApp.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/XA/XAqAmTYCFUGmvEcbwsO8mU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TestApp_Prefix-bvdxdlnienixieakzaucqpkwmisf/TestApp_Prefix.pch --analyze /Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/Classes/ThirdViewController.m -o /Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/TestApp.build/Release-iphoneos/TestApp.build/StaticAnalyzer/normal/armv7/ThirdViewController.plist0#
-
-CAnalyze /Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/main.m
-s311316406.727793
-e311316406.786361
-r1
-xAnalyze
-x/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/main.m
-lSLF07#2@60"Analyze /Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/main.m311316406#311316406#0(0"0(0#0#52"/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/main.m8604425088#1889"    cd /Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk -fasm-blocks -gdwarf-2 -fvisibility=hidden -mthumb -miphoneos-version-min=4.1 -iquote /Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/TestApp.build/Release-iphoneos/TestApp.build/TestApp-generated-files.hmap -I/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/TestApp.build/Release-iphoneos/TestApp.build/TestApp-own-target-headers.hmap -I/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/TestApp.build/Release-iphoneos/TestApp.build/TestApp-all-target-headers.hmap -iquote /Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/TestApp.build/Release-iphoneos/TestApp.build/TestApp-project-headers.hmap -F/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/Release-iphoneos -I/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/Release-iphoneos/include -I/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/TestApp.build/Release-iphoneos/TestApp.build/DerivedSources/armv7 -I/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/TestApp.build/Release-iphoneos/TestApp.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/XA/XAqAmTYCFUGmvEcbwsO8mU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TestApp_Prefix-bvdxdlnienixieakzaucqpkwmisf/TestApp_Prefix.pch --analyze /Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/main.m -o /Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/TestApp.build/Release-iphoneos/TestApp.build/StaticAnalyzer/normal/armv7/main.plist0#
-
-CCheck dependencies
-r0
-lSLF07#2@18"Check dependencies311317508#311317508#0(0"0(0#1#0"8622822080#0"0#
-
-CCodeSign /Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/Release-iphoneos/TestApp.app
-s311317321.361857
-e311317321.743743
-r1
-xCodeSign
-x/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/Release-iphoneos/TestApp.app
-lSLF07#2@43"CodeSign build/Release-iphoneos/TestApp.app311317321#311317321#0(0"0(0#0#80"/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/Release-iphoneos/TestApp.app8616108928#684"    cd /Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv _CODESIGN_ALLOCATE_ /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate    /usr/bin/codesign -f -s "iPhone Developer: Vikas Aggarwal (FU7TFQJCUL)" --resource-rules=/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/Release-iphoneos/TestApp.app/ResourceRules.plist --entitlements /Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/TestApp.build/Release-iphoneos/TestApp.build/TestApp.xcent /Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/Release-iphoneos/TestApp.app0#
-
-CCompileC build/TestApp.build/Release-iphoneos/TestApp.build/Objects-normal/armv6/FirstViewController.o /Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/Classes/FirstViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-s311316405.832498
-e311316405.950610
-r1
-xCompileC
-xbuild/TestApp.build/Release-iphoneos/TestApp.build/Objects-normal/armv6/FirstViewController.o
-x/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/Classes/FirstViewController.m
-xnormal
-xarmv6
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@83"Compile /Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/Classes/FirstViewController.m311316405#311316405#0(0"0(0#0#75"/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/Classes/FirstViewController.m8604065792#1898"    cd /Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.1 -iquote /Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/TestApp.build/Release-iphoneos/TestApp.build/TestApp-generated-files.hmap -I/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/TestApp.build/Release-iphoneos/TestApp.build/TestApp-own-target-headers.hmap -I/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/TestApp.build/Release-iphoneos/TestApp.build/TestApp-all-target-headers.hmap -iquote /Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/TestApp.build/Release-iphoneos/TestApp.build/TestApp-project-headers.hmap -F/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/Release-iphoneos -I/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/Release-iphoneos/include -I/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/TestApp.build/Release-iphoneos/TestApp.build/DerivedSources/armv6 -I/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/TestApp.build/Release-iphoneos/TestApp.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/XA/XAqAmTYCFUGmvEcbwsO8mU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TestApp_Prefix-fkugquopwyczwedbritcimkvwosr/TestApp_Prefix.pch -c /Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/Classes/FirstViewController.m -o /Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/TestApp.build/Release-iphoneos/TestApp.build/Objects-normal/armv6/FirstViewController.o0#
-
-CCompileC build/TestApp.build/Release-iphoneos/TestApp.build/Objects-normal/armv6/MapViewController.o /Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/Classes/MapViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-s311317320.943558
-e311317321.251796
-r1
-xCompileC
-xbuild/TestApp.build/Release-iphoneos/TestApp.build/Objects-normal/armv6/MapViewController.o
-x/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/Classes/MapViewController.m
-xnormal
-xarmv6
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-o/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/Classes/MapViewController.m:87: warning: incomplete implementation of class 'MapViewController'
-o/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/Classes/MapViewController.m:87: warning: method definition for '-showInfo' not found
-lSLF07#2@81"Compile /Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/Classes/MapViewController.m311317320#311317321#0(273"/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/Classes/MapViewController.m:87: warning: incomplete implementation of class 'MapViewController'/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/Classes/MapViewController.m:87: warning: method definition for '-showInfo' not found2(22@54"Incomplete implementation of class 'MapViewController'311317321#0#142#0(6@73"/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/Classes/MapViewController.m311317218#87#0#87#0#38"incomplete implementation of class '*'0(22@43"Method definition for '-showInfo' not found311317321#142#131#0(6@73"/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/Classes/MapViewController.m311317218#87#0#87#0#35"method definition for '*' not found0(0#0#73"/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/Classes/MapViewController.m8245930584228258816#1894"    cd /Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.1 -iquote /Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/TestApp.build/Release-iphoneos/TestApp.build/TestApp-generated-files.hmap -I/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/TestApp.build/Release-iphoneos/TestApp.build/TestApp-own-target-headers.hmap -I/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/TestApp.build/Release-iphoneos/TestApp.build/TestApp-all-target-headers.hmap -iquote /Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/TestApp.build/Release-iphoneos/TestApp.build/TestApp-project-headers.hmap -F/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/Release-iphoneos -I/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/Release-iphoneos/include -I/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/TestApp.build/Release-iphoneos/TestApp.build/DerivedSources/armv6 -I/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/TestApp.build/Release-iphoneos/TestApp.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/XA/XAqAmTYCFUGmvEcbwsO8mU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TestApp_Prefix-fkugquopwyczwedbritcimkvwosr/TestApp_Prefix.pch -c /Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/Classes/MapViewController.m -o /Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/TestApp.build/Release-iphoneos/TestApp.build/Objects-normal/armv6/MapViewController.o0#
-
-CCompileC build/TestApp.build/Release-iphoneos/TestApp.build/Objects-normal/armv6/SecondViewController.o /Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/Classes/SecondViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-s311316405.898653
-e311316405.997527
-r1
-xCompileC
-xbuild/TestApp.build/Release-iphoneos/TestApp.build/Objects-normal/armv6/SecondViewController.o
-x/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/Classes/SecondViewController.m
-xnormal
-xarmv6
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@84"Compile /Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/Classes/SecondViewController.m311316405#311316405#0(0"0(0#0#76"/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/Classes/SecondViewController.m8607812704#1900"    cd /Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.1 -iquote /Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/TestApp.build/Release-iphoneos/TestApp.build/TestApp-generated-files.hmap -I/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/TestApp.build/Release-iphoneos/TestApp.build/TestApp-own-target-headers.hmap -I/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/TestApp.build/Release-iphoneos/TestApp.build/TestApp-all-target-headers.hmap -iquote /Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/TestApp.build/Release-iphoneos/TestApp.build/TestApp-project-headers.hmap -F/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/Release-iphoneos -I/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/Release-iphoneos/include -I/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/TestApp.build/Release-iphoneos/TestApp.build/DerivedSources/armv6 -I/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/TestApp.build/Release-iphoneos/TestApp.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/XA/XAqAmTYCFUGmvEcbwsO8mU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TestApp_Prefix-fkugquopwyczwedbritcimkvwosr/TestApp_Prefix.pch -c /Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/Classes/SecondViewController.m -o /Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/TestApp.build/Release-iphoneos/TestApp.build/Objects-normal/armv6/SecondViewController.o0#
-
-CCompileC build/TestApp.build/Release-iphoneos/TestApp.build/Objects-normal/armv6/TestAppAppDelegate.o /Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/Classes/TestAppAppDelegate.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-s311316405.719631
-e311316405.898539
-r1
-xCompileC
-xbuild/TestApp.build/Release-iphoneos/TestApp.build/Objects-normal/armv6/TestAppAppDelegate.o
-x/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/Classes/TestAppAppDelegate.m
-xnormal
-xarmv6
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@82"Compile /Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/Classes/TestAppAppDelegate.m311316405#311316405#0(0"0(0#0#74"/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/Classes/TestAppAppDelegate.m8605148576#1896"    cd /Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.1 -iquote /Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/TestApp.build/Release-iphoneos/TestApp.build/TestApp-generated-files.hmap -I/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/TestApp.build/Release-iphoneos/TestApp.build/TestApp-own-target-headers.hmap -I/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/TestApp.build/Release-iphoneos/TestApp.build/TestApp-all-target-headers.hmap -iquote /Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/TestApp.build/Release-iphoneos/TestApp.build/TestApp-project-headers.hmap -F/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/Release-iphoneos -I/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/Release-iphoneos/include -I/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/TestApp.build/Release-iphoneos/TestApp.build/DerivedSources/armv6 -I/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/TestApp.build/Release-iphoneos/TestApp.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/XA/XAqAmTYCFUGmvEcbwsO8mU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TestApp_Prefix-fkugquopwyczwedbritcimkvwosr/TestApp_Prefix.pch -c /Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/Classes/TestAppAppDelegate.m -o /Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/TestApp.build/Release-iphoneos/TestApp.build/Objects-normal/armv6/TestAppAppDelegate.o0#
-
-CCompileC build/TestApp.build/Release-iphoneos/TestApp.build/Objects-normal/armv6/ThirdViewController.o /Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/Classes/ThirdViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-s311316405.950715
-e311316406.074809
-r1
-xCompileC
-xbuild/TestApp.build/Release-iphoneos/TestApp.build/Objects-normal/armv6/ThirdViewController.o
-x/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/Classes/ThirdViewController.m
-xnormal
-xarmv6
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@83"Compile /Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/Classes/ThirdViewController.m311316405#311316406#0(0"0(0#0#75"/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/Classes/ThirdViewController.m8605390080#1898"    cd /Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.1 -iquote /Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/TestApp.build/Release-iphoneos/TestApp.build/TestApp-generated-files.hmap -I/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/TestApp.build/Release-iphoneos/TestApp.build/TestApp-own-target-headers.hmap -I/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/TestApp.build/Release-iphoneos/TestApp.build/TestApp-all-target-headers.hmap -iquote /Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/TestApp.build/Release-iphoneos/TestApp.build/TestApp-project-headers.hmap -F/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/Release-iphoneos -I/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/Release-iphoneos/include -I/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/TestApp.build/Release-iphoneos/TestApp.build/DerivedSources/armv6 -I/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/TestApp.build/Release-iphoneos/TestApp.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/XA/XAqAmTYCFUGmvEcbwsO8mU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TestApp_Prefix-fkugquopwyczwedbritcimkvwosr/TestApp_Prefix.pch -c /Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/Classes/ThirdViewController.m -o /Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/TestApp.build/Release-iphoneos/TestApp.build/Objects-normal/armv6/ThirdViewController.o0#
-
-CCompileC build/TestApp.build/Release-iphoneos/TestApp.build/Objects-normal/armv6/main.o /Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/main.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-s311316405.718211
-e311316405.832390
-r1
-xCompileC
-xbuild/TestApp.build/Release-iphoneos/TestApp.build/Objects-normal/armv6/main.o
-x/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/main.m
-xnormal
-xarmv6
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@60"Compile /Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/main.m311316405#311316405#0(0"0(0#0#52"/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/main.m8605259840#1860"    cd /Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.1 -iquote /Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/TestApp.build/Release-iphoneos/TestApp.build/TestApp-generated-files.hmap -I/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/TestApp.build/Release-iphoneos/TestApp.build/TestApp-own-target-headers.hmap -I/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/TestApp.build/Release-iphoneos/TestApp.build/TestApp-all-target-headers.hmap -iquote /Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/TestApp.build/Release-iphoneos/TestApp.build/TestApp-project-headers.hmap -F/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/Release-iphoneos -I/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/Release-iphoneos/include -I/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/TestApp.build/Release-iphoneos/TestApp.build/DerivedSources/armv6 -I/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/TestApp.build/Release-iphoneos/TestApp.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/XA/XAqAmTYCFUGmvEcbwsO8mU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TestApp_Prefix-fkugquopwyczwedbritcimkvwosr/TestApp_Prefix.pch -c /Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/main.m -o /Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/TestApp.build/Release-iphoneos/TestApp.build/Objects-normal/armv6/main.o0#
-
-CCompileC build/TestApp.build/Release-iphoneos/TestApp.build/Objects-normal/armv7/FirstViewController.o /Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/Classes/FirstViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-s311316406.216506
-e311316406.333340
-r1
-xCompileC
-xbuild/TestApp.build/Release-iphoneos/TestApp.build/Objects-normal/armv7/FirstViewController.o
-x/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/Classes/FirstViewController.m
-xnormal
-xarmv7
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@83"Compile /Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/Classes/FirstViewController.m311316406#311316406#0(0"0(0#0#75"/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/Classes/FirstViewController.m8605231648#1898"    cd /Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.1 -iquote /Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/TestApp.build/Release-iphoneos/TestApp.build/TestApp-generated-files.hmap -I/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/TestApp.build/Release-iphoneos/TestApp.build/TestApp-own-target-headers.hmap -I/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/TestApp.build/Release-iphoneos/TestApp.build/TestApp-all-target-headers.hmap -iquote /Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/TestApp.build/Release-iphoneos/TestApp.build/TestApp-project-headers.hmap -F/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/Release-iphoneos -I/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/Release-iphoneos/include -I/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/TestApp.build/Release-iphoneos/TestApp.build/DerivedSources/armv7 -I/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/TestApp.build/Release-iphoneos/TestApp.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/XA/XAqAmTYCFUGmvEcbwsO8mU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TestApp_Prefix-ayjfnmghbbzkecbjvwqejgmhwvzd/TestApp_Prefix.pch -c /Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/Classes/FirstViewController.m -o /Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/TestApp.build/Release-iphoneos/TestApp.build/Objects-normal/armv7/FirstViewController.o0#
-
-CCompileC build/TestApp.build/Release-iphoneos/TestApp.build/Objects-normal/armv7/MapViewController.o /Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/Classes/MapViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-s311317320.961012
-e311317321.221132
-r1
-xCompileC
-xbuild/TestApp.build/Release-iphoneos/TestApp.build/Objects-normal/armv7/MapViewController.o
-x/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/Classes/MapViewController.m
-xnormal
-xarmv7
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-o/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/Classes/MapViewController.m:87: warning: incomplete implementation of class 'MapViewController'
-o/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/Classes/MapViewController.m:87: warning: method definition for '-showInfo' not found
-lSLF07#2@81"Compile /Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/Classes/MapViewController.m311317320#311317321#0(273"/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/Classes/MapViewController.m:87: warning: incomplete implementation of class 'MapViewController'/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/Classes/MapViewController.m:87: warning: method definition for '-showInfo' not found2(22@54"Incomplete implementation of class 'MapViewController'311317321#0#142#0(6@73"/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/Classes/MapViewController.m311317218#87#0#87#0#38"incomplete implementation of class '*'0(22@43"Method definition for '-showInfo' not found311317321#142#131#0(6@73"/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/Classes/MapViewController.m311317218#87#0#87#0#35"method definition for '*' not found0(0#0#73"/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/Classes/MapViewController.m8617019008#1894"    cd /Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.1 -iquote /Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/TestApp.build/Release-iphoneos/TestApp.build/TestApp-generated-files.hmap -I/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/TestApp.build/Release-iphoneos/TestApp.build/TestApp-own-target-headers.hmap -I/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/TestApp.build/Release-iphoneos/TestApp.build/TestApp-all-target-headers.hmap -iquote /Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/TestApp.build/Release-iphoneos/TestApp.build/TestApp-project-headers.hmap -F/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/Release-iphoneos -I/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/Release-iphoneos/include -I/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/TestApp.build/Release-iphoneos/TestApp.build/DerivedSources/armv7 -I/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/TestApp.build/Release-iphoneos/TestApp.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/XA/XAqAmTYCFUGmvEcbwsO8mU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TestApp_Prefix-ayjfnmghbbzkecbjvwqejgmhwvzd/TestApp_Prefix.pch -c /Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/Classes/MapViewController.m -o /Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/TestApp.build/Release-iphoneos/TestApp.build/Objects-normal/armv7/MapViewController.o0#
-
-CCompileC build/TestApp.build/Release-iphoneos/TestApp.build/Objects-normal/armv7/SecondViewController.o /Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/Classes/SecondViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-s311316406.310948
-e311316406.433527
-r1
-xCompileC
-xbuild/TestApp.build/Release-iphoneos/TestApp.build/Objects-normal/armv7/SecondViewController.o
-x/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/Classes/SecondViewController.m
-xnormal
-xarmv7
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@84"Compile /Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/Classes/SecondViewController.m311316406#311316406#0(0"0(0#0#76"/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/Classes/SecondViewController.m8604171136#1900"    cd /Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.1 -iquote /Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/TestApp.build/Release-iphoneos/TestApp.build/TestApp-generated-files.hmap -I/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/TestApp.build/Release-iphoneos/TestApp.build/TestApp-own-target-headers.hmap -I/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/TestApp.build/Release-iphoneos/TestApp.build/TestApp-all-target-headers.hmap -iquote /Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/TestApp.build/Release-iphoneos/TestApp.build/TestApp-project-headers.hmap -F/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/Release-iphoneos -I/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/Release-iphoneos/include -I/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/TestApp.build/Release-iphoneos/TestApp.build/DerivedSources/armv7 -I/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/TestApp.build/Release-iphoneos/TestApp.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/XA/XAqAmTYCFUGmvEcbwsO8mU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TestApp_Prefix-ayjfnmghbbzkecbjvwqejgmhwvzd/TestApp_Prefix.pch -c /Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/Classes/SecondViewController.m -o /Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/TestApp.build/Release-iphoneos/TestApp.build/Objects-normal/armv7/SecondViewController.o0#
-
-CCompileC build/TestApp.build/Release-iphoneos/TestApp.build/Objects-normal/armv7/TestAppAppDelegate.o /Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/Classes/TestAppAppDelegate.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-s311316406.156507
-e311316406.310836
-r1
-xCompileC
-xbuild/TestApp.build/Release-iphoneos/TestApp.build/Objects-normal/armv7/TestAppAppDelegate.o
-x/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/Classes/TestAppAppDelegate.m
-xnormal
-xarmv7
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@82"Compile /Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/Classes/TestAppAppDelegate.m311316406#311316406#0(0"0(0#0#74"/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/Classes/TestAppAppDelegate.m8604508544#1896"    cd /Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.1 -iquote /Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/TestApp.build/Release-iphoneos/TestApp.build/TestApp-generated-files.hmap -I/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/TestApp.build/Release-iphoneos/TestApp.build/TestApp-own-target-headers.hmap -I/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/TestApp.build/Release-iphoneos/TestApp.build/TestApp-all-target-headers.hmap -iquote /Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/TestApp.build/Release-iphoneos/TestApp.build/TestApp-project-headers.hmap -F/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/Release-iphoneos -I/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/Release-iphoneos/include -I/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/TestApp.build/Release-iphoneos/TestApp.build/DerivedSources/armv7 -I/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/TestApp.build/Release-iphoneos/TestApp.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/XA/XAqAmTYCFUGmvEcbwsO8mU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TestApp_Prefix-ayjfnmghbbzkecbjvwqejgmhwvzd/TestApp_Prefix.pch -c /Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/Classes/TestAppAppDelegate.m -o /Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/TestApp.build/Release-iphoneos/TestApp.build/Objects-normal/armv7/TestAppAppDelegate.o0#
-
-CCompileC build/TestApp.build/Release-iphoneos/TestApp.build/Objects-normal/armv7/ThirdViewController.o /Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/Classes/ThirdViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-s311316406.333457
-e311316406.443523
-r1
-xCompileC
-xbuild/TestApp.build/Release-iphoneos/TestApp.build/Objects-normal/armv7/ThirdViewController.o
-x/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/Classes/ThirdViewController.m
-xnormal
-xarmv7
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@83"Compile /Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/Classes/ThirdViewController.m311316406#311316406#0(0"0(0#0#75"/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/Classes/ThirdViewController.m8604054912#1898"    cd /Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.1 -iquote /Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/TestApp.build/Release-iphoneos/TestApp.build/TestApp-generated-files.hmap -I/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/TestApp.build/Release-iphoneos/TestApp.build/TestApp-own-target-headers.hmap -I/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/TestApp.build/Release-iphoneos/TestApp.build/TestApp-all-target-headers.hmap -iquote /Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/TestApp.build/Release-iphoneos/TestApp.build/TestApp-project-headers.hmap -F/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/Release-iphoneos -I/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/Release-iphoneos/include -I/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/TestApp.build/Release-iphoneos/TestApp.build/DerivedSources/armv7 -I/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/TestApp.build/Release-iphoneos/TestApp.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/XA/XAqAmTYCFUGmvEcbwsO8mU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TestApp_Prefix-ayjfnmghbbzkecbjvwqejgmhwvzd/TestApp_Prefix.pch -c /Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/Classes/ThirdViewController.m -o /Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/TestApp.build/Release-iphoneos/TestApp.build/Objects-normal/armv7/ThirdViewController.o0#
-
-CCompileC build/TestApp.build/Release-iphoneos/TestApp.build/Objects-normal/armv7/main.o /Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/main.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-s311316406.074934
-e311316406.156398
-r1
-xCompileC
-xbuild/TestApp.build/Release-iphoneos/TestApp.build/Objects-normal/armv7/main.o
-x/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/main.m
-xnormal
-xarmv7
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@60"Compile /Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/main.m311316406#311316406#0(0"0(0#0#52"/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/main.m8245930584228258816#1860"    cd /Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.1 -iquote /Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/TestApp.build/Release-iphoneos/TestApp.build/TestApp-generated-files.hmap -I/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/TestApp.build/Release-iphoneos/TestApp.build/TestApp-own-target-headers.hmap -I/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/TestApp.build/Release-iphoneos/TestApp.build/TestApp-all-target-headers.hmap -iquote /Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/TestApp.build/Release-iphoneos/TestApp.build/TestApp-project-headers.hmap -F/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/Release-iphoneos -I/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/Release-iphoneos/include -I/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/TestApp.build/Release-iphoneos/TestApp.build/DerivedSources/armv7 -I/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/TestApp.build/Release-iphoneos/TestApp.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/XA/XAqAmTYCFUGmvEcbwsO8mU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TestApp_Prefix-ayjfnmghbbzkecbjvwqejgmhwvzd/TestApp_Prefix.pch -c /Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/main.m -o /Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/TestApp.build/Release-iphoneos/TestApp.build/Objects-normal/armv7/main.o0#
-
-CCompileXIB /Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/FirstView.xib
-s311316402.675270
-e311316403.533679
-r1
-xCompileXIB
-x/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/FirstView.xib
-lSLF07#2@24"CompileXIB FirstView.xib311316402#311316403#0(0"0(0#0#59"/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/FirstView.xib8608195456#563"    cd /Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.1    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/Release-iphoneos/TestApp.app/FirstView.nib /Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/FirstView.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk0#
-
-CCompileXIB /Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/MainWindow.xib
-s311316402.000443
-e311316402.748984
-r1
-xCompileXIB
-x/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/MainWindow.xib
-lSLF07#2@25"CompileXIB MainWindow.xib311316402#311316402#0(0"0(0#0#60"/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/MainWindow.xib8608068576#565"    cd /Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.1    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/Release-iphoneos/TestApp.app/MainWindow.nib /Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/MainWindow.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk0#
-
-CCompileXIB /Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/MapView.xib
-s311316403.533884
-e311316404.116855
-r1
-xCompileXIB
-x/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/MapView.xib
-lSLF07#2@22"CompileXIB MapView.xib311316403#311316404#0(0"0(0#0#57"/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/MapView.xib8603161632#559"    cd /Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.1    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/Release-iphoneos/TestApp.app/MapView.nib /Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/MapView.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk0#
-
-CCompileXIB /Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/SecondView.xib
-s311316402.001296
-e311316402.675171
-r1
-xCompileXIB
-x/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/SecondView.xib
-lSLF07#2@25"CompileXIB SecondView.xib311316402#311316402#0(0"0(0#0#60"/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/SecondView.xib8607918432#565"    cd /Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.1    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/Release-iphoneos/TestApp.app/SecondView.nib /Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/SecondView.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk0#
-
-CCompileXIB /Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/ThirdView.xib
-s311316402.749078
-e311316403.633174
-r1
-xCompileXIB
-x/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/ThirdView.xib
-lSLF07#2@24"CompileXIB ThirdView.xib311316402#311316403#0(0"0(0#0#59"/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/ThirdView.xib8605522304#563"    cd /Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.1    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/Release-iphoneos/TestApp.app/ThirdView.nib /Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/ThirdView.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk0#
-
-CCopyPNGFile /Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/Release-iphoneos/TestApp.app/Icon.black.png Images/Icon.black.png
-s311316403.633282
-e311316403.681874
-r1
-xCopyPNGFile
-x/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/Release-iphoneos/TestApp.app/Icon.black.png
-xImages/Icon.black.png
-lSLF07#2@83"CopyPNGFile build/Release-iphoneos/TestApp.app/Icon.black.png Images/Icon.black.png311316403#311316403#0(0"0(0#0#67"/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/Images/Icon.black.png8604210400#598"    cd /Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/Images/Icon.black.png /Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/Release-iphoneos/TestApp.app/Icon.black.png0#
-
-CCopyPNGFile /Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/Release-iphoneos/TestApp.app/Icon.png Images/Icon.png
-s311316403.681988
-e311316403.726658
-r1
-xCopyPNGFile
-x/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/Release-iphoneos/TestApp.app/Icon.png
-xImages/Icon.png
-lSLF07#2@71"CopyPNGFile build/Release-iphoneos/TestApp.app/Icon.png Images/Icon.png311316403#311316403#0(0"0(0#0#61"/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/Images/Icon.png8603840096#586"    cd /Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/Images/Icon.png /Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/Release-iphoneos/TestApp.app/Icon.png0#
-
-CCopyPNGFile /Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/Release-iphoneos/TestApp.app/Icon.white.png Images/Icon.white.png
-s311316403.726758
-e311316403.786306
-r1
-xCopyPNGFile
-x/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/Release-iphoneos/TestApp.app/Icon.white.png
-xImages/Icon.white.png
-lSLF07#2@83"CopyPNGFile build/Release-iphoneos/TestApp.app/Icon.white.png Images/Icon.white.png311316403#311316403#0(0"0(0#0#67"/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/Images/Icon.white.png8602738496#598"    cd /Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/Images/Icon.white.png /Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/Release-iphoneos/TestApp.app/Icon.white.png0#
-
-CCpResource build/Release-iphoneos/TestApp.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/ResourceRules.plist
-s311316401.965700
-e311316402.000348
-r1
-xCpResource
-xbuild/Release-iphoneos/TestApp.app/ResourceRules.plist
-x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/ResourceRules.plist
-lSLF07#2@94"Copy /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/ResourceRules.plist311316401#311316402#0(0"0(0#0#89"/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/ResourceRules.plist8307809061684012032#517"    cd /Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/ResourceRules.plist /Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/Release-iphoneos/TestApp.app0#
-
-CCreateUniversalBinary /Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/Release-iphoneos/TestApp.app/TestApp normal "armv6 armv7"
-s311317321.293987
-e311317321.297963
-r1
-xCreateUniversalBinary
-x/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/Release-iphoneos/TestApp.app/TestApp
-xnormal
-xarmv6 armv7
-lSLF07#2@85"CreateUniversalBinary build/Release-iphoneos/TestApp.app/TestApp normal "armv6 armv7"311317321#311317321#0(0"0(0#0#57"/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/armv6 armv78616742496#552"    cd /Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/lipo -create /Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/TestApp.build/Release-iphoneos/TestApp.build/Objects-normal/armv6/TestApp /Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/TestApp.build/Release-iphoneos/TestApp.build/Objects-normal/armv7/TestApp -output /Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/Release-iphoneos/TestApp.app/TestApp0#
-
-CGenerateDSYMFile /Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/Release-iphoneos/TestApp.app.dSYM /Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/Release-iphoneos/TestApp.app/TestApp
-s311317321.298062
-e311317321.351798
-r1
-xGenerateDSYMFile
-x/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/Release-iphoneos/TestApp.app.dSYM
-x/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/Release-iphoneos/TestApp.app/TestApp
-lSLF07#2@99"GenerateDSYMFile build/Release-iphoneos/TestApp.app.dSYM build/Release-iphoneos/TestApp.app/TestApp311317321#311317321#0(0"0(0#0#88"/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/Release-iphoneos/TestApp.app/TestApp8616591520#387"    cd /Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/Release-iphoneos/TestApp.app/TestApp -o /Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/Release-iphoneos/TestApp.app.dSYM0#
-
-CLd /Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/TestApp.build/Release-iphoneos/TestApp.build/Objects-normal/armv6/TestApp normal armv6
-s311317321.251901
-e311317321.293857
-r1
-xLd
-x/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/TestApp.build/Release-iphoneos/TestApp.build/Objects-normal/armv6/TestApp
-xnormal
-xarmv6
-lSLF07#2@130"Link /Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/TestApp.build/Release-iphoneos/TestApp.build/Objects-normal/armv6/TestApp311317321#311317321#0(0"0(0#0#0"8616933856#920"    cd /Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp    setenv IPHONEOS_DEPLOYMENT_TARGET 4.1    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv6 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk -L/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/Release-iphoneos -F/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/Release-iphoneos -filelist /Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/TestApp.build/Release-iphoneos/TestApp.build/Objects-normal/armv6/TestApp.LinkFileList -dead_strip -miphoneos-version-min=4.1 -framework Foundation -framework UIKit -framework CoreGraphics -framework MapKit -o /Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/TestApp.build/Release-iphoneos/TestApp.build/Objects-normal/armv6/TestApp0#
-
-CLd /Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/TestApp.build/Release-iphoneos/TestApp.build/Objects-normal/armv7/TestApp normal armv7
-s311317321.221230
-e311317321.260657
-r1
-xLd
-x/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/TestApp.build/Release-iphoneos/TestApp.build/Objects-normal/armv7/TestApp
-xnormal
-xarmv7
-lSLF07#2@130"Link /Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/TestApp.build/Release-iphoneos/TestApp.build/Objects-normal/armv7/TestApp311317321#311317321#0(0"0(0#0#0"8616523936#920"    cd /Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp    setenv IPHONEOS_DEPLOYMENT_TARGET 4.1    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv7 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk -L/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/Release-iphoneos -F/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/Release-iphoneos -filelist /Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/TestApp.build/Release-iphoneos/TestApp.build/Objects-normal/armv7/TestApp.LinkFileList -dead_strip -miphoneos-version-min=4.1 -framework Foundation -framework UIKit -framework CoreGraphics -framework MapKit -o /Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/TestApp.build/Release-iphoneos/TestApp.build/Objects-normal/armv7/TestApp0#
-
-CProcessInfoPlistFile /Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/Release-iphoneos/TestApp.app/Info.plist TestApp-Info.plist
-s311316401.980277
-e311316401.984681
-r1
-xProcessInfoPlistFile
-x/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/Release-iphoneos/TestApp.app/Info.plist
-xTestApp-Info.plist
-lSLF07#2@26"Process TestApp-Info.plist311316401#311316401#0(0"0(0#0#64"/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/TestApp-Info.plist8608723424#596"    cd /Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility TestApp-Info.plist -genpkginfo /Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/Release-iphoneos/TestApp.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -resourcerulesfile /Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/Release-iphoneos/TestApp.app/ResourceRules.plist -o /Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/Release-iphoneos/TestApp.app/Info.plist0#
-
-CProcessPCH /var/folders/XA/XAqAmTYCFUGmvEcbwsO8mU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TestApp_Prefix-ayjfnmghbbzkecbjvwqejgmhwvzd/TestApp_Prefix.pch.gch TestApp_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
-s311316404.118153
-e311316405.238461
-r1
-xProcessPCH
-x/var/folders/XA/XAqAmTYCFUGmvEcbwsO8mU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TestApp_Prefix-ayjfnmghbbzkecbjvwqejgmhwvzd/TestApp_Prefix.pch.gch
-xTestApp_Prefix.pch
-xnormal
-xarmv7
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@29"Precompile TestApp_Prefix.pch311316404#311316405#0(0"0(0#0#64"/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/TestApp_Prefix.pch8604339264#1749"    cd /Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.1 -iquote /Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/TestApp.build/Release-iphoneos/TestApp.build/TestApp-generated-files.hmap -I/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/TestApp.build/Release-iphoneos/TestApp.build/TestApp-own-target-headers.hmap -I/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/TestApp.build/Release-iphoneos/TestApp.build/TestApp-all-target-headers.hmap -iquote /Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/TestApp.build/Release-iphoneos/TestApp.build/TestApp-project-headers.hmap -F/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/Release-iphoneos -I/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/Release-iphoneos/include -I/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/TestApp.build/Release-iphoneos/TestApp.build/DerivedSources/armv7 -I/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/TestApp.build/Release-iphoneos/TestApp.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -c /Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/TestApp_Prefix.pch -o /var/folders/XA/XAqAmTYCFUGmvEcbwsO8mU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TestApp_Prefix-ayjfnmghbbzkecbjvwqejgmhwvzd/TestApp_Prefix.pch.gch0#
-
-CProcessPCH /var/folders/XA/XAqAmTYCFUGmvEcbwsO8mU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TestApp_Prefix-bvdxdlnienixieakzaucqpkwmisf/TestApp_Prefix.pch.pth TestApp_Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.analyzer
-s311316405.238597
-e311316405.718085
-r1
-xProcessPCH
-x/var/folders/XA/XAqAmTYCFUGmvEcbwsO8mU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TestApp_Prefix-bvdxdlnienixieakzaucqpkwmisf/TestApp_Prefix.pch.pth
-xTestApp_Prefix.pch
-xnormal
-xarmv7
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.analyzer
-lSLF07#2@29"Precompile TestApp_Prefix.pch311316405#311316405#0(0"0(0#0#64"/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/TestApp_Prefix.pch8608326144#1760"    cd /Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/clang -x objective-c-header -arch armv7 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk -fasm-blocks -gdwarf-2 -fvisibility=hidden -mthumb -miphoneos-version-min=4.1 -iquote /Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/TestApp.build/Release-iphoneos/TestApp.build/TestApp-generated-files.hmap -I/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/TestApp.build/Release-iphoneos/TestApp.build/TestApp-own-target-headers.hmap -I/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/TestApp.build/Release-iphoneos/TestApp.build/TestApp-all-target-headers.hmap -iquote /Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/TestApp.build/Release-iphoneos/TestApp.build/TestApp-project-headers.hmap -F/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/Release-iphoneos -I/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/Release-iphoneos/include -I/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/TestApp.build/Release-iphoneos/TestApp.build/DerivedSources/armv7 -I/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/TestApp.build/Release-iphoneos/TestApp.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -c /Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/TestApp_Prefix.pch -o /var/folders/XA/XAqAmTYCFUGmvEcbwsO8mU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TestApp_Prefix-bvdxdlnienixieakzaucqpkwmisf/TestApp_Prefix.pch.pth0#
-
-CProcessPCH /var/folders/XA/XAqAmTYCFUGmvEcbwsO8mU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TestApp_Prefix-cmzwwhobgizmjtgascoynewlprus/TestApp_Prefix.pch.pth TestApp_Prefix.pch normal armv6 objective-c com.apple.compilers.llvm.clang.1_0.analyzer
-s311316405.166341
-e311316405.660742
-r1
-xProcessPCH
-x/var/folders/XA/XAqAmTYCFUGmvEcbwsO8mU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TestApp_Prefix-cmzwwhobgizmjtgascoynewlprus/TestApp_Prefix.pch.pth
-xTestApp_Prefix.pch
-xnormal
-xarmv6
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.analyzer
-lSLF07#2@29"Precompile TestApp_Prefix.pch311316405#311316405#0(0"0(0#0#64"/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/TestApp_Prefix.pch8608781152#1760"    cd /Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/clang -x objective-c-header -arch armv6 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk -fasm-blocks -gdwarf-2 -fvisibility=hidden -mthumb -miphoneos-version-min=4.1 -iquote /Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/TestApp.build/Release-iphoneos/TestApp.build/TestApp-generated-files.hmap -I/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/TestApp.build/Release-iphoneos/TestApp.build/TestApp-own-target-headers.hmap -I/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/TestApp.build/Release-iphoneos/TestApp.build/TestApp-all-target-headers.hmap -iquote /Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/TestApp.build/Release-iphoneos/TestApp.build/TestApp-project-headers.hmap -F/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/Release-iphoneos -I/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/Release-iphoneos/include -I/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/TestApp.build/Release-iphoneos/TestApp.build/DerivedSources/armv6 -I/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/TestApp.build/Release-iphoneos/TestApp.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -c /Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/TestApp_Prefix.pch -o /var/folders/XA/XAqAmTYCFUGmvEcbwsO8mU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TestApp_Prefix-cmzwwhobgizmjtgascoynewlprus/TestApp_Prefix.pch.pth0#
-
-CProcessPCH /var/folders/XA/XAqAmTYCFUGmvEcbwsO8mU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TestApp_Prefix-fkugquopwyczwedbritcimkvwosr/TestApp_Prefix.pch.gch TestApp_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
-s311316404.117087
-e311316405.166101
-r1
-xProcessPCH
-x/var/folders/XA/XAqAmTYCFUGmvEcbwsO8mU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TestApp_Prefix-fkugquopwyczwedbritcimkvwosr/TestApp_Prefix.pch.gch
-xTestApp_Prefix.pch
-xnormal
-xarmv6
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@29"Precompile TestApp_Prefix.pch311316404#311316405#0(0"0(0#0#64"/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/TestApp_Prefix.pch8604851456#1749"    cd /Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.1 -iquote /Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/TestApp.build/Release-iphoneos/TestApp.build/TestApp-generated-files.hmap -I/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/TestApp.build/Release-iphoneos/TestApp.build/TestApp-own-target-headers.hmap -I/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/TestApp.build/Release-iphoneos/TestApp.build/TestApp-all-target-headers.hmap -iquote /Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/TestApp.build/Release-iphoneos/TestApp.build/TestApp-project-headers.hmap -F/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/Release-iphoneos -I/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/Release-iphoneos/include -I/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/TestApp.build/Release-iphoneos/TestApp.build/DerivedSources/armv6 -I/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/TestApp.build/Release-iphoneos/TestApp.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -c /Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/TestApp_Prefix.pch -o /var/folders/XA/XAqAmTYCFUGmvEcbwsO8mU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TestApp_Prefix-fkugquopwyczwedbritcimkvwosr/TestApp_Prefix.pch.gch0#
-
-CProcessProductPackaging "/Users/sakiv/Library/MobileDevice/Provisioning Profiles/29970ADA-6FDE-4A30-A17A-B8B86F22AD3A.mobileprovision" /Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/Release-iphoneos/TestApp.app/embedded.mobileprovision
-s311316407.012800
-e311316407.014438
-r1
-xProcessProductPackaging
-x/Users/sakiv/Library/MobileDevice/Provisioning Profiles/29970ADA-6FDE-4A30-A17A-B8B86F22AD3A.mobileprovision
-x/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/Release-iphoneos/TestApp.app/embedded.mobileprovision
-lSLF07#2@194"ProcessProductPackaging "/Users/sakiv/Library/MobileDevice/Provisioning Profiles/29970ADA-6FDE-4A30-A17A-B8B86F22AD3A.mobileprovision" build/Release-iphoneos/TestApp.app/embedded.mobileprovision311316407#311316407#0(0"0(0#0#105"/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/Release-iphoneos/TestApp.app/embedded.mobileprovision8605097024#439"    cd /Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> "/Users/sakiv/Library/MobileDevice/Provisioning Profiles/29970ADA-6FDE-4A30-A17A-B8B86F22AD3A.mobileprovision" -o /Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/Release-iphoneos/TestApp.app/embedded.mobileprovision0#
-
-CProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/Entitlements.plist /Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/TestApp.build/Release-iphoneos/TestApp.build/TestApp.xcent
-s311316407.019039
-e311316407.021211
-r1
-xProcessProductPackaging
-x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/Entitlements.plist
-x/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/TestApp.build/Release-iphoneos/TestApp.build/TestApp.xcent
-lSLF07#2@177"ProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/Entitlements.plist build/TestApp.build/Release-iphoneos/TestApp.build/TestApp.xcent311316407#311316407#0(0"0(0#0#110"/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/TestApp.build/Release-iphoneos/TestApp.build/TestApp.xcent8604445952#448"    cd /Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/Entitlements.plist -entitlements -format xml -o /Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/TestApp.build/Release-iphoneos/TestApp.build/TestApp.xcent0#
-
-CTouch /Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/Release-iphoneos/TestApp.app
-s311317321.352010
-e311317321.361654
-r1
-xTouch
-x/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/Release-iphoneos/TestApp.app
-lSLF07#2@86"Touch /Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/Release-iphoneos/TestApp.app311317321#311317321#0(0"0(0#0#0"8616460672#280"    cd /Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/Release-iphoneos/TestApp.app0#
-
-CValidate /Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/Release-iphoneos/TestApp.app
-s311317508.637328
-e311317508.839545
-r1
-xValidate
-x/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/Release-iphoneos/TestApp.app
-lSLF07#2@43"Validate build/Release-iphoneos/TestApp.app311317508#311317508#0(0"0(0#0#80"/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/Release-iphoneos/TestApp.app8620942240#389"    cd /Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv PRODUCT_TYPE com.apple.product-type.application    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/Validation /Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/Release-iphoneos/TestApp.app0#
-

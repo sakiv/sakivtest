@@ -1,448 +1,0 @@
-TTestApp
-v7
-r0
-t310626219.210117
-cCheck dependencies
-cCpResource build/Debug-iphoneos/TestApp.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/ResourceRules.plist
-cProcessInfoPlistFile /Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/Debug-iphoneos/TestApp.app/Info.plist TestApp-Info.plist
-cCompileXIB /Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/MainWindow.xib
-cCompileXIB /Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/SecondView.xib
-cCompileXIB /Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/FirstView.xib
-cProcessPCH /var/folders/XA/XAqAmTYCFUGmvEcbwsO8mU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TestApp_Prefix-avbjoeurorhaframwcprimvvsees/TestApp_Prefix.pch.gch TestApp_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
-cProcessPCH /var/folders/XA/XAqAmTYCFUGmvEcbwsO8mU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TestApp_Prefix-dwnsjpukghkzajgtbqmvmghwuvtu/TestApp_Prefix.pch.gch TestApp_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/TestApp.build/Debug-iphoneos/TestApp.build/Objects-normal/armv6/main.o /Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/main.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/TestApp.build/Debug-iphoneos/TestApp.build/Objects-normal/armv6/TestAppAppDelegate.o /Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/Classes/TestAppAppDelegate.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/TestApp.build/Debug-iphoneos/TestApp.build/Objects-normal/armv6/FirstViewController.o /Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/Classes/FirstViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/TestApp.build/Debug-iphoneos/TestApp.build/Objects-normal/armv7/main.o /Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/main.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-cLd /Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/TestApp.build/Debug-iphoneos/TestApp.build/Objects-normal/armv6/TestApp normal armv6
-cCompileC build/TestApp.build/Debug-iphoneos/TestApp.build/Objects-normal/armv7/TestAppAppDelegate.o /Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/Classes/TestAppAppDelegate.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/TestApp.build/Debug-iphoneos/TestApp.build/Objects-normal/armv7/FirstViewController.o /Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/Classes/FirstViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-cLd /Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/TestApp.build/Debug-iphoneos/TestApp.build/Objects-normal/armv7/TestApp normal armv7
-cCreateUniversalBinary /Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/Debug-iphoneos/TestApp.app/TestApp normal "armv6 armv7"
-cGenerateDSYMFile /Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/Debug-iphoneos/TestApp.app.dSYM /Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/Debug-iphoneos/TestApp.app/TestApp
-cProcessProductPackaging "/Users/sakiv/Library/MobileDevice/Provisioning Profiles/29970ADA-6FDE-4A30-A17A-B8B86F22AD3A.mobileprovision" /Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/Debug-iphoneos/TestApp.app/embedded.mobileprovision
-cTouch /Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/Debug-iphoneos/TestApp.app
-cProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/Entitlements.plist /Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/TestApp.build/Debug-iphoneos/TestApp.build/TestApp.xcent
-cCodeSign /Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/Debug-iphoneos/TestApp.app
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk
-c000000004C6DE9E30000000000000110
-t1282271715
-s272
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/Entitlements.plist
-c000000004C578FA900000000000001A7
-t1280806825
-s423
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/ResourceRules.plist
-c000000004C578FA900000000000001E5
-t1280806825
-s485
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
-c000000004C5A51050000000000345F00
-t1280987397
-s3432192
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
-c000000004C5A52B100000000003E1EF0
-t1280987825
-s4071152
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
-c000000004C5A527F0000000000001466
-t1280987775
-s5222
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
-c000000004C62427000000000000009CD
-t1281507952
-s2509
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/System/Library/Frameworks/UIKit.framework/UIKit
-c000000004C62430F0000000002EBC2B0
-t1281508111
-s49005232
-
-N/Users/sakiv/Library/MobileDevice/Provisioning Profiles/29970ADA-6FDE-4A30-A17A-B8B86F22AD3A.mobileprovision
-c000000004CD38EC20000000000001BFF
-t1288933058
-s7167
-
-N/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/Classes/FirstViewController.h
-c000000004CD38FF600000000000000E4
-t1288933366
-s228
-i<UIKit/UIKit.h>
-
-N/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/Classes/FirstViewController.m
-c000000004CD38FF600000000000005AB
-t1288933366
-s1451
-i"FirstViewController.h"
-
-N/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/Classes/TestAppAppDelegate.h
-c000000004CD38FF600000000000001D3
-t1288933366
-s467
-i<UIKit/UIKit.h>
-
-N/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/Classes/TestAppAppDelegate.m
-c000000004CD38FF60000000000000C2F
-t1288933366
-s3119
-i"TestAppAppDelegate.h"
-
-N/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/FirstView.xib
-c000000004CD38FF600000000000049D1
-t1288933366
-s18897
-
-N/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/MainWindow.xib
-c000000004CD38FF6000000000000642E
-t1288933366
-s25646
-
-N/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/SecondView.xib
-c000000004CD38FF600000000000049CF
-t1288933366
-s18895
-
-N/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/TestApp_Prefix.pch
-c000000004CD38FF600000000000000B7
-t1288933366
-s183
-i<Foundation/Foundation.h>
-i<UIKit/UIKit.h>
-
-N/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/Debug-iphoneos/TestApp.app
-t1288933419
-s408
-
-N/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/Debug-iphoneos/TestApp.app.dSYM
-t1288933412
-s102
-
-N/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/Debug-iphoneos/TestApp.app/FirstView.nib
-t1288933410
-s2879
-
-N/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/Debug-iphoneos/TestApp.app/Info.plist
-t1288933409
-s726
-
-N/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/Debug-iphoneos/TestApp.app/MainWindow.nib
-t1288933410
-s3053
-
-N/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/Debug-iphoneos/TestApp.app/PkgInfo
-t1288933409
-s8
-
-N/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/Debug-iphoneos/TestApp.app/ResourceRules.plist
-t1288933409
-s485
-
-N/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/Debug-iphoneos/TestApp.app/SecondView.nib
-t1288933410
-s2876
-
-N/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/Debug-iphoneos/TestApp.app/TestApp
-t1288933412
-s41660
-
-N/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/Debug-iphoneos/TestApp.app/embedded.mobileprovision
-t1288933412
-s7167
-
-N/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/TestApp.build/Debug-iphoneos/TestApp.build/Objects-normal/armv6/FirstViewController.o
-t1288933412
-s34440
-
-N/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/TestApp.build/Debug-iphoneos/TestApp.build/Objects-normal/armv6/TestApp
-t1288933412
-s17084
-
-N/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/TestApp.build/Debug-iphoneos/TestApp.build/Objects-normal/armv6/TestApp.LinkFileList
-c000000004CD39021000000000000018E
-t1288933409
-s398
-
-N/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/TestApp.build/Debug-iphoneos/TestApp.build/Objects-normal/armv6/TestAppAppDelegate.o
-t1288933412
-s50828
-
-N/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/TestApp.build/Debug-iphoneos/TestApp.build/Objects-normal/armv6/main.o
-t1288933412
-s6460
-
-N/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/TestApp.build/Debug-iphoneos/TestApp.build/Objects-normal/armv7/FirstViewController.o
-t1288933412
-s34416
-
-N/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/TestApp.build/Debug-iphoneos/TestApp.build/Objects-normal/armv7/TestApp
-t1288933412
-s17084
-
-N/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/TestApp.build/Debug-iphoneos/TestApp.build/Objects-normal/armv7/TestApp.LinkFileList
-c000000004CD39021000000000000018E
-t1288933409
-s398
-
-N/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/TestApp.build/Debug-iphoneos/TestApp.build/Objects-normal/armv7/TestAppAppDelegate.o
-t1288933412
-s50744
-
-N/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/TestApp.build/Debug-iphoneos/TestApp.build/Objects-normal/armv7/main.o
-t1288933412
-s6444
-
-N/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/TestApp.build/Debug-iphoneos/TestApp.build/TestApp.xcent
-t1288933413
-s420
-
-N/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/main.m
-c000000004CD38FF6000000000000015F
-t1288933366
-s351
-i<UIKit/UIKit.h>
-
-N/var/folders/XA/XAqAmTYCFUGmvEcbwsO8mU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TestApp_Prefix-avbjoeurorhaframwcprimvvsees/TestApp_Prefix.pch.gch
-t1288933411
-s9831984
-
-N/var/folders/XA/XAqAmTYCFUGmvEcbwsO8mU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TestApp_Prefix-dwnsjpukghkzajgtbqmvmghwuvtu/TestApp_Prefix.pch.gch
-t1288933411
-s10294832
-
-NTestApp-Info.plist
-c000000004CD38FF6000000000000038D
-t1288933366
-s909
-
-CCheck dependencies
-r0
-lSLF07#2@18"Check dependencies310626209#310626209#0(0"0(0#1#0"3343187568374212096#0"0#
-
-CCodeSign /Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/Debug-iphoneos/TestApp.app
-s310626213.004487
-e310626219.209982
-r1
-xCodeSign
-x/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/Debug-iphoneos/TestApp.app
-lSLF07#2@41"CodeSign build/Debug-iphoneos/TestApp.app310626213#310626219#0(0"0(0#0#78"/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/Debug-iphoneos/TestApp.app8601826016#678"    cd /Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv _CODESIGN_ALLOCATE_ /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate    /usr/bin/codesign -f -s "iPhone Developer: Vikas Aggarwal (FU7TFQJCUL)" --resource-rules=/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/Debug-iphoneos/TestApp.app/ResourceRules.plist --entitlements /Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/TestApp.build/Debug-iphoneos/TestApp.build/TestApp.xcent /Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/Debug-iphoneos/TestApp.app0#
-
-CCompileC build/TestApp.build/Debug-iphoneos/TestApp.build/Objects-normal/armv6/FirstViewController.o /Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/Classes/FirstViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-s310626212.058161
-e310626212.164091
-r1
-xCompileC
-xbuild/TestApp.build/Debug-iphoneos/TestApp.build/Objects-normal/armv6/FirstViewController.o
-x/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/Classes/FirstViewController.m
-xnormal
-xarmv6
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@83"Compile /Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/Classes/FirstViewController.m310626212#310626212#0(0"0(0#0#75"/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/Classes/FirstViewController.m8607340352#1839"    cd /Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.1 -iquote /Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/TestApp.build/Debug-iphoneos/TestApp.build/TestApp-generated-files.hmap -I/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/TestApp.build/Debug-iphoneos/TestApp.build/TestApp-own-target-headers.hmap -I/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/TestApp.build/Debug-iphoneos/TestApp.build/TestApp-all-target-headers.hmap -iquote /Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/TestApp.build/Debug-iphoneos/TestApp.build/TestApp-project-headers.hmap -F/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/Debug-iphoneos -I/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/Debug-iphoneos/include -I/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/TestApp.build/Debug-iphoneos/TestApp.build/DerivedSources/armv6 -I/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/TestApp.build/Debug-iphoneos/TestApp.build/DerivedSources -include /var/folders/XA/XAqAmTYCFUGmvEcbwsO8mU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TestApp_Prefix-avbjoeurorhaframwcprimvvsees/TestApp_Prefix.pch -c /Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/Classes/FirstViewController.m -o /Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/TestApp.build/Debug-iphoneos/TestApp.build/Objects-normal/armv6/FirstViewController.o0#
-
-CCompileC build/TestApp.build/Debug-iphoneos/TestApp.build/Objects-normal/armv6/TestAppAppDelegate.o /Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/Classes/TestAppAppDelegate.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-s310626211.997504
-e310626212.118903
-r1
-xCompileC
-xbuild/TestApp.build/Debug-iphoneos/TestApp.build/Objects-normal/armv6/TestAppAppDelegate.o
-x/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/Classes/TestAppAppDelegate.m
-xnormal
-xarmv6
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@82"Compile /Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/Classes/TestAppAppDelegate.m310626211#310626212#0(0"0(0#0#74"/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/Classes/TestAppAppDelegate.m8602351104#1837"    cd /Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.1 -iquote /Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/TestApp.build/Debug-iphoneos/TestApp.build/TestApp-generated-files.hmap -I/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/TestApp.build/Debug-iphoneos/TestApp.build/TestApp-own-target-headers.hmap -I/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/TestApp.build/Debug-iphoneos/TestApp.build/TestApp-all-target-headers.hmap -iquote /Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/TestApp.build/Debug-iphoneos/TestApp.build/TestApp-project-headers.hmap -F/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/Debug-iphoneos -I/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/Debug-iphoneos/include -I/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/TestApp.build/Debug-iphoneos/TestApp.build/DerivedSources/armv6 -I/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/TestApp.build/Debug-iphoneos/TestApp.build/DerivedSources -include /var/folders/XA/XAqAmTYCFUGmvEcbwsO8mU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TestApp_Prefix-avbjoeurorhaframwcprimvvsees/TestApp_Prefix.pch -c /Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/Classes/TestAppAppDelegate.m -o /Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/TestApp.build/Debug-iphoneos/TestApp.build/Objects-normal/armv6/TestAppAppDelegate.o0#
-
-CCompileC build/TestApp.build/Debug-iphoneos/TestApp.build/Objects-normal/armv6/main.o /Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/main.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-s310626211.996303
-e310626212.058049
-r1
-xCompileC
-xbuild/TestApp.build/Debug-iphoneos/TestApp.build/Objects-normal/armv6/main.o
-x/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/main.m
-xnormal
-xarmv6
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@60"Compile /Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/main.m310626211#310626212#0(0"0(0#0#52"/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/main.m8606555680#1801"    cd /Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.1 -iquote /Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/TestApp.build/Debug-iphoneos/TestApp.build/TestApp-generated-files.hmap -I/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/TestApp.build/Debug-iphoneos/TestApp.build/TestApp-own-target-headers.hmap -I/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/TestApp.build/Debug-iphoneos/TestApp.build/TestApp-all-target-headers.hmap -iquote /Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/TestApp.build/Debug-iphoneos/TestApp.build/TestApp-project-headers.hmap -F/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/Debug-iphoneos -I/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/Debug-iphoneos/include -I/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/TestApp.build/Debug-iphoneos/TestApp.build/DerivedSources/armv6 -I/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/TestApp.build/Debug-iphoneos/TestApp.build/DerivedSources -include /var/folders/XA/XAqAmTYCFUGmvEcbwsO8mU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TestApp_Prefix-avbjoeurorhaframwcprimvvsees/TestApp_Prefix.pch -c /Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/main.m -o /Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/TestApp.build/Debug-iphoneos/TestApp.build/Objects-normal/armv6/main.o0#
-
-CCompileC build/TestApp.build/Debug-iphoneos/TestApp.build/Objects-normal/armv7/FirstViewController.o /Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/Classes/FirstViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-s310626212.311568
-e310626212.402091
-r1
-xCompileC
-xbuild/TestApp.build/Debug-iphoneos/TestApp.build/Objects-normal/armv7/FirstViewController.o
-x/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/Classes/FirstViewController.m
-xnormal
-xarmv7
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@83"Compile /Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/Classes/FirstViewController.m310626212#310626212#0(0"0(0#0#75"/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/Classes/FirstViewController.m8602230656#1839"    cd /Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.1 -iquote /Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/TestApp.build/Debug-iphoneos/TestApp.build/TestApp-generated-files.hmap -I/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/TestApp.build/Debug-iphoneos/TestApp.build/TestApp-own-target-headers.hmap -I/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/TestApp.build/Debug-iphoneos/TestApp.build/TestApp-all-target-headers.hmap -iquote /Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/TestApp.build/Debug-iphoneos/TestApp.build/TestApp-project-headers.hmap -F/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/Debug-iphoneos -I/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/Debug-iphoneos/include -I/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/TestApp.build/Debug-iphoneos/TestApp.build/DerivedSources/armv7 -I/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/TestApp.build/Debug-iphoneos/TestApp.build/DerivedSources -include /var/folders/XA/XAqAmTYCFUGmvEcbwsO8mU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TestApp_Prefix-dwnsjpukghkzajgtbqmvmghwuvtu/TestApp_Prefix.pch -c /Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/Classes/FirstViewController.m -o /Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/TestApp.build/Debug-iphoneos/TestApp.build/Objects-normal/armv7/FirstViewController.o0#
-
-CCompileC build/TestApp.build/Debug-iphoneos/TestApp.build/Objects-normal/armv7/TestAppAppDelegate.o /Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/Classes/TestAppAppDelegate.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-s310626212.191719
-e310626212.311458
-r1
-xCompileC
-xbuild/TestApp.build/Debug-iphoneos/TestApp.build/Objects-normal/armv7/TestAppAppDelegate.o
-x/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/Classes/TestAppAppDelegate.m
-xnormal
-xarmv7
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@82"Compile /Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/Classes/TestAppAppDelegate.m310626212#310626212#0(0"0(0#0#74"/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/Classes/TestAppAppDelegate.m8606934272#1837"    cd /Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.1 -iquote /Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/TestApp.build/Debug-iphoneos/TestApp.build/TestApp-generated-files.hmap -I/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/TestApp.build/Debug-iphoneos/TestApp.build/TestApp-own-target-headers.hmap -I/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/TestApp.build/Debug-iphoneos/TestApp.build/TestApp-all-target-headers.hmap -iquote /Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/TestApp.build/Debug-iphoneos/TestApp.build/TestApp-project-headers.hmap -F/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/Debug-iphoneos -I/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/Debug-iphoneos/include -I/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/TestApp.build/Debug-iphoneos/TestApp.build/DerivedSources/armv7 -I/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/TestApp.build/Debug-iphoneos/TestApp.build/DerivedSources -include /var/folders/XA/XAqAmTYCFUGmvEcbwsO8mU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TestApp_Prefix-dwnsjpukghkzajgtbqmvmghwuvtu/TestApp_Prefix.pch -c /Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/Classes/TestAppAppDelegate.m -o /Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/TestApp.build/Debug-iphoneos/TestApp.build/Objects-normal/armv7/TestAppAppDelegate.o0#
-
-CCompileC build/TestApp.build/Debug-iphoneos/TestApp.build/Objects-normal/armv7/main.o /Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/main.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-s310626212.119030
-e310626212.191607
-r1
-xCompileC
-xbuild/TestApp.build/Debug-iphoneos/TestApp.build/Objects-normal/armv7/main.o
-x/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/main.m
-xnormal
-xarmv7
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@60"Compile /Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/main.m310626212#310626212#0(0"0(0#0#52"/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/main.m8607174976#1801"    cd /Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.1 -iquote /Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/TestApp.build/Debug-iphoneos/TestApp.build/TestApp-generated-files.hmap -I/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/TestApp.build/Debug-iphoneos/TestApp.build/TestApp-own-target-headers.hmap -I/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/TestApp.build/Debug-iphoneos/TestApp.build/TestApp-all-target-headers.hmap -iquote /Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/TestApp.build/Debug-iphoneos/TestApp.build/TestApp-project-headers.hmap -F/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/Debug-iphoneos -I/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/Debug-iphoneos/include -I/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/TestApp.build/Debug-iphoneos/TestApp.build/DerivedSources/armv7 -I/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/TestApp.build/Debug-iphoneos/TestApp.build/DerivedSources -include /var/folders/XA/XAqAmTYCFUGmvEcbwsO8mU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TestApp_Prefix-dwnsjpukghkzajgtbqmvmghwuvtu/TestApp_Prefix.pch -c /Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/main.m -o /Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/TestApp.build/Debug-iphoneos/TestApp.build/Objects-normal/armv7/main.o0#
-
-CCompileXIB /Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/FirstView.xib
-s310626210.046145
-e310626210.738296
-r1
-xCompileXIB
-x/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/FirstView.xib
-oCouldn't open shared capabilities memory GSCapabilities (No such file or directory)
-lSLF07#2@24"CompileXIB FirstView.xib310626210#310626210#0(84"Couldn't open shared capabilities memory GSCapabilities (No such file or directory)0(0#0#59"/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/FirstView.xib8606198272#561"    cd /Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.1    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/Debug-iphoneos/TestApp.app/FirstView.nib /Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/FirstView.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk0#
-
-CCompileXIB /Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/MainWindow.xib
-s310626209.542890
-e310626210.046041
-r1
-xCompileXIB
-x/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/MainWindow.xib
-lSLF07#2@25"CompileXIB MainWindow.xib310626209#310626210#0(0"0(0#0#60"/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/MainWindow.xib8607073600#563"    cd /Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.1    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/Debug-iphoneos/TestApp.app/MainWindow.nib /Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/MainWindow.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk0#
-
-CCompileXIB /Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/SecondView.xib
-s310626209.543850
-e310626210.650612
-r1
-xCompileXIB
-x/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/SecondView.xib
-oCouldn't open shared capabilities memory GSCapabilities (No such file or directory)
-lSLF07#2@25"CompileXIB SecondView.xib310626209#310626210#0(84"Couldn't open shared capabilities memory GSCapabilities (No such file or directory)0(0#0#60"/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/SecondView.xib8606974944#563"    cd /Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.1    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/Debug-iphoneos/TestApp.app/SecondView.nib /Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/SecondView.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk0#
-
-CCpResource build/Debug-iphoneos/TestApp.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/ResourceRules.plist
-s310626209.522272
-e310626209.542796
-r1
-xCpResource
-xbuild/Debug-iphoneos/TestApp.app/ResourceRules.plist
-x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/ResourceRules.plist
-lSLF07#2@94"Copy /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/ResourceRules.plist310626209#310626209#0(0"0(0#0#89"/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/ResourceRules.plist5922070114188800000#494"    cd /Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/ResourceRules.plist /Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/Debug-iphoneos/TestApp.app0#
-
-CCreateUniversalBinary /Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/Debug-iphoneos/TestApp.app/TestApp normal "armv6 armv7"
-s310626212.832637
-e310626212.885833
-r1
-xCreateUniversalBinary
-x/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/Debug-iphoneos/TestApp.app/TestApp
-xnormal
-xarmv6 armv7
-lSLF07#2@83"CreateUniversalBinary build/Debug-iphoneos/TestApp.app/TestApp normal "armv6 armv7"310626212#310626212#0(0"0(0#0#57"/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/armv6 armv78606996864#546"    cd /Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/lipo -create /Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/TestApp.build/Debug-iphoneos/TestApp.build/Objects-normal/armv6/TestApp /Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/TestApp.build/Debug-iphoneos/TestApp.build/Objects-normal/armv7/TestApp -output /Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/Debug-iphoneos/TestApp.app/TestApp0#
-
-CGenerateDSYMFile /Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/Debug-iphoneos/TestApp.app.dSYM /Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/Debug-iphoneos/TestApp.app/TestApp
-s310626212.885937
-e310626212.988474
-r1
-xGenerateDSYMFile
-x/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/Debug-iphoneos/TestApp.app.dSYM
-x/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/Debug-iphoneos/TestApp.app/TestApp
-lSLF07#2@95"GenerateDSYMFile build/Debug-iphoneos/TestApp.app.dSYM build/Debug-iphoneos/TestApp.app/TestApp310626212#310626212#0(0"0(0#0#86"/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/Debug-iphoneos/TestApp.app/TestApp8606858656#383"    cd /Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/Debug-iphoneos/TestApp.app/TestApp -o /Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/Debug-iphoneos/TestApp.app.dSYM0#
-
-CLd /Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/TestApp.build/Debug-iphoneos/TestApp.build/Objects-normal/armv6/TestApp normal armv6
-s310626212.164201
-e310626212.832056
-r1
-xLd
-x/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/TestApp.build/Debug-iphoneos/TestApp.build/Objects-normal/armv6/TestApp
-xnormal
-xarmv6
-lSLF07#2@128"Link /Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/TestApp.build/Debug-iphoneos/TestApp.build/Objects-normal/armv6/TestApp310626212#310626212#0(0"0(0#0#0"8607193792#894"    cd /Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp    setenv IPHONEOS_DEPLOYMENT_TARGET 4.1    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv6 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk -L/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/Debug-iphoneos -F/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/Debug-iphoneos -filelist /Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/TestApp.build/Debug-iphoneos/TestApp.build/Objects-normal/armv6/TestApp.LinkFileList -dead_strip -miphoneos-version-min=4.1 -framework Foundation -framework UIKit -framework CoreGraphics -o /Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/TestApp.build/Debug-iphoneos/TestApp.build/Objects-normal/armv6/TestApp0#
-
-CLd /Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/TestApp.build/Debug-iphoneos/TestApp.build/Objects-normal/armv7/TestApp normal armv7
-s310626212.402195
-e310626212.832541
-r1
-xLd
-x/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/TestApp.build/Debug-iphoneos/TestApp.build/Objects-normal/armv7/TestApp
-xnormal
-xarmv7
-lSLF07#2@128"Link /Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/TestApp.build/Debug-iphoneos/TestApp.build/Objects-normal/armv7/TestApp310626212#310626212#0(0"0(0#0#0"8606857952#894"    cd /Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp    setenv IPHONEOS_DEPLOYMENT_TARGET 4.1    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv7 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk -L/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/Debug-iphoneos -F/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/Debug-iphoneos -filelist /Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/TestApp.build/Debug-iphoneos/TestApp.build/Objects-normal/armv7/TestApp.LinkFileList -dead_strip -miphoneos-version-min=4.1 -framework Foundation -framework UIKit -framework CoreGraphics -o /Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/TestApp.build/Debug-iphoneos/TestApp.build/Objects-normal/armv7/TestApp0#
-
-CProcessInfoPlistFile /Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/Debug-iphoneos/TestApp.app/Info.plist TestApp-Info.plist
-s310626209.527387
-e310626209.538566
-r1
-xProcessInfoPlistFile
-x/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/Debug-iphoneos/TestApp.app/Info.plist
-xTestApp-Info.plist
-lSLF07#2@26"Process TestApp-Info.plist310626209#310626209#0(0"0(0#0#64"/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/TestApp-Info.plist8606440832#590"    cd /Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility TestApp-Info.plist -genpkginfo /Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/Debug-iphoneos/TestApp.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -resourcerulesfile /Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/Debug-iphoneos/TestApp.app/ResourceRules.plist -o /Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/Debug-iphoneos/TestApp.app/Info.plist0#
-
-CProcessPCH /var/folders/XA/XAqAmTYCFUGmvEcbwsO8mU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TestApp_Prefix-avbjoeurorhaframwcprimvvsees/TestApp_Prefix.pch.gch TestApp_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
-s310626210.738591
-e310626211.996197
-r1
-xProcessPCH
-x/var/folders/XA/XAqAmTYCFUGmvEcbwsO8mU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TestApp_Prefix-avbjoeurorhaframwcprimvvsees/TestApp_Prefix.pch.gch
-xTestApp_Prefix.pch
-xnormal
-xarmv6
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@29"Precompile TestApp_Prefix.pch310626210#310626211#0(0"0(0#0#64"/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/TestApp_Prefix.pch8607049600#1692"    cd /Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.1 -iquote /Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/TestApp.build/Debug-iphoneos/TestApp.build/TestApp-generated-files.hmap -I/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/TestApp.build/Debug-iphoneos/TestApp.build/TestApp-own-target-headers.hmap -I/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/TestApp.build/Debug-iphoneos/TestApp.build/TestApp-all-target-headers.hmap -iquote /Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/TestApp.build/Debug-iphoneos/TestApp.build/TestApp-project-headers.hmap -F/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/Debug-iphoneos -I/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/Debug-iphoneos/include -I/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/TestApp.build/Debug-iphoneos/TestApp.build/DerivedSources/armv6 -I/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/TestApp.build/Debug-iphoneos/TestApp.build/DerivedSources -c /Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/TestApp_Prefix.pch -o /var/folders/XA/XAqAmTYCFUGmvEcbwsO8mU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TestApp_Prefix-avbjoeurorhaframwcprimvvsees/TestApp_Prefix.pch.gch0#
-
-CProcessPCH /var/folders/XA/XAqAmTYCFUGmvEcbwsO8mU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TestApp_Prefix-dwnsjpukghkzajgtbqmvmghwuvtu/TestApp_Prefix.pch.gch TestApp_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
-s310626210.740058
-e310626211.957390
-r1
-xProcessPCH
-x/var/folders/XA/XAqAmTYCFUGmvEcbwsO8mU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TestApp_Prefix-dwnsjpukghkzajgtbqmvmghwuvtu/TestApp_Prefix.pch.gch
-xTestApp_Prefix.pch
-xnormal
-xarmv7
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@29"Precompile TestApp_Prefix.pch310626210#310626211#0(0"0(0#0#64"/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/TestApp_Prefix.pch8607087744#1692"    cd /Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.1 -iquote /Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/TestApp.build/Debug-iphoneos/TestApp.build/TestApp-generated-files.hmap -I/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/TestApp.build/Debug-iphoneos/TestApp.build/TestApp-own-target-headers.hmap -I/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/TestApp.build/Debug-iphoneos/TestApp.build/TestApp-all-target-headers.hmap -iquote /Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/TestApp.build/Debug-iphoneos/TestApp.build/TestApp-project-headers.hmap -F/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/Debug-iphoneos -I/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/Debug-iphoneos/include -I/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/TestApp.build/Debug-iphoneos/TestApp.build/DerivedSources/armv7 -I/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/TestApp.build/Debug-iphoneos/TestApp.build/DerivedSources -c /Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/TestApp_Prefix.pch -o /var/folders/XA/XAqAmTYCFUGmvEcbwsO8mU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TestApp_Prefix-dwnsjpukghkzajgtbqmvmghwuvtu/TestApp_Prefix.pch.gch0#
-
-CProcessProductPackaging "/Users/sakiv/Library/MobileDevice/Provisioning Profiles/29970ADA-6FDE-4A30-A17A-B8B86F22AD3A.mobileprovision" /Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/Debug-iphoneos/TestApp.app/embedded.mobileprovision
-s310626212.988597
-e310626212.990114
-r1
-xProcessProductPackaging
-x/Users/sakiv/Library/MobileDevice/Provisioning Profiles/29970ADA-6FDE-4A30-A17A-B8B86F22AD3A.mobileprovision
-x/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/Debug-iphoneos/TestApp.app/embedded.mobileprovision
-lSLF07#2@192"ProcessProductPackaging "/Users/sakiv/Library/MobileDevice/Provisioning Profiles/29970ADA-6FDE-4A30-A17A-B8B86F22AD3A.mobileprovision" build/Debug-iphoneos/TestApp.app/embedded.mobileprovision310626212#310626212#0(0"0(0#0#103"/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/Debug-iphoneos/TestApp.app/embedded.mobileprovision8606894656#437"    cd /Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> "/Users/sakiv/Library/MobileDevice/Provisioning Profiles/29970ADA-6FDE-4A30-A17A-B8B86F22AD3A.mobileprovision" -o /Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/Debug-iphoneos/TestApp.app/embedded.mobileprovision0#
-
-CProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/Entitlements.plist /Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/TestApp.build/Debug-iphoneos/TestApp.build/TestApp.xcent
-s310626212.993650
-e310626213.004397
-r1
-xProcessProductPackaging
-x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/Entitlements.plist
-x/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/TestApp.build/Debug-iphoneos/TestApp.build/TestApp.xcent
-lSLF07#2@175"ProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/Entitlements.plist build/TestApp.build/Debug-iphoneos/TestApp.build/TestApp.xcent310626212#310626213#0(0"0(0#0#108"/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/TestApp.build/Debug-iphoneos/TestApp.build/TestApp.xcent8605740512#446"    cd /Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/Entitlements.plist -entitlements -format xml -o /Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/TestApp.build/Debug-iphoneos/TestApp.build/TestApp.xcent0#
-
-CTouch /Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/Debug-iphoneos/TestApp.app
-s310626212.990178
-e310626212.993548
-r1
-xTouch
-x/Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/Debug-iphoneos/TestApp.app
-lSLF07#2@84"Touch /Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/Debug-iphoneos/TestApp.app310626212#310626212#0(0"0(0#0#0"8606795968#278"    cd /Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/sakiv/WA/WorkSpace/iOS/TestApp/TestApp/build/Debug-iphoneos/TestApp.app0#
-

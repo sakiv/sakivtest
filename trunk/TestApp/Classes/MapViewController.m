@@ -8,9 +8,9 @@
 
 #import "MapViewController.h"
 
-
 @implementation MapViewController
 
+//@synthesize mapView;
 
  // The designated initializer.  Override if you create the controller programmatically and want to perform customization that is not appropriate for viewDidLoad.
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil {
@@ -36,39 +36,53 @@
 	
 	mapView = [[MKMapView alloc] initWithFrame:self.view.bounds];
 	mapView.showsUserLocation = TRUE;
-	mapView.mapType = MKMapTypeStandard;
+	mapView.mapType = MKMapTypeSatellite;
 	mapView.delegate = self;
 //	mapView.zoomEnabled = TRUE;
 //	mapView.autoresizesSubviews = TRUE;
 	
 	/*Region and Zoom*/
-	MKCoordinateRegion region;
-	MKCoordinateSpan span;
-	span.latitudeDelta = 0.2;
-	span.longitudeDelta = 0.2;
-
-	CLLocationCoordinate2D coordinate = mapView.userLocation.location.coordinate;
-
-	NSLog(@"Coordinate:%f", coordinate);
+	[self setCurrentLocation:mapView.userLocation.location];
 	
+//	[mapView regionThatFits:region];
+//	[self.view insertSubview:mapView atIndex:0];
+	
+	NSLog(@"Exit viewDidLoad");	
+}
+
+//SetCurrentLocation
+//Zooms in the mapView on the user's current location
+- (void)setCurrentLocation:(CLLocation *)location {
+
+	MKCoordinateRegion region = {{0.0f, 0.0f}, {0.0f, 0.0f}};
+	MKCoordinateSpan span;
+	span.latitudeDelta = 0.2f;
+	span.longitudeDelta = 0.2f;
+	 
+	CLLocationCoordinate2D coordinate = mapView.userLocation.location.coordinate;
+	
+//	coordinate.latitude = 40.814849;
+//	coordinate.longitude = -73.622732;
+	
+	NSLog(@"Coordinate:%f", coordinate);
+	 
 	region.span = span;
 	region.center = coordinate;
-	
+	 
 	NSLog(@"Region:%f", region);
 	NSLog(@"region.center.latitude:%f", region.center.latitude);
-	NSLog(@"region.center.longitude:%f", region.center.longitude);
-
+	NSLog(@"region.center.longitude:%f", region.center.longitude);	 
+	
 	/*Geocoder Stuff*/
 	geoCoder = [[MKReverseGeocoder alloc] initWithCoordinate:coordinate];
 	geoCoder.delegate = self;
 	[geoCoder start];
 	
-	[mapView setRegion:region animated:TRUE];
-	[mapView regionThatFits:region];
-	[self.view insertSubview:mapView atIndex:0];
+	[mapView setRegion:region animated:YES];
 	
-	NSLog(@"Exit viewDidLoad");	
+	//[mapView setRegion:MKCoordinateRegionMake([location coordinate], MKCoordinateSpanMake(.015f, .015f)) animated:YES];
 }
+//END SetCurrentLocation
 
 - (IBAction)showInfo {
 //	FlipsideViewController *controller = [[FlipsideViewController alloc] initWithNibName:@"FlipsideView" bundle:nil];
@@ -82,15 +96,20 @@
 }
 
 - (IBAction)changeType:(id)sender {
-	if(mapType.selectedSegmentIndex == 0){
-		mapView.mapType = MKMapTypeStandard;
+	
+	switch (mapType.selectedSegmentIndex) {
+		case 1:
+			mapView.mapType = MKMapTypeSatellite;
+			break;
+		case 2:
+			mapView.mapType = MKMapTypeHybrid;
+			break;
+		default:
+			mapView.mapType = MKMapTypeStandard;
+			break;
 	}
-	else if(mapType.selectedSegmentIndex == 1){
-		mapView.mapType = MKMapTypeSatellite;
-	}
-	else if(mapType.selectedSegmentIndex == 2){
-		mapView.mapType = MKMapTypeHybrid;
-	}
+	
+	//[mapView setMapType:mapView.mapType];
 }
 
 - (void)reverseGeocoder:(MKReverseGeocoder *)geocoder didFailWithError:(NSError *)error{

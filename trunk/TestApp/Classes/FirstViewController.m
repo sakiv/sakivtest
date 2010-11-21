@@ -12,7 +12,6 @@
 @implementation FirstViewController
 
 
-
 // The designated initializer. Override to perform setup that is required before the view is loaded.
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil {
     if ((self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil])) {
@@ -33,18 +32,40 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
 	
+	
+//	scrollView = [[scrollView alloc] initWithFrame:self.view.bounds];
+//	scrollView.delegate = self;
+	
 	btnSend.enabled = FALSE;
 }
 
 - (IBAction) valueChanged:(id)sender {
 	
-	if (txtUID.text == nil && txtPhone == nil && txtMessage == nil) {
+	NSLog(@"UID:%@", txtUID.text);
+	NSLog(@"Phone:%@", txtPhone.text);
+	NSLog(@"Message:%@", txtMessage.text);
+			
+	if ([txtUID.text length] == 0 && [txtPhone.text length] == 0 && [txtMessage.text length] == 0) {
 		btnSend.enabled = FALSE;
 	}else {
-		btnSend.enabled = FALSE;
+		btnSend.enabled = TRUE;
 	}
 
 }
+
+- (IBAction) btnCancel_Click:(id)sender {
+	
+	txtPhone.text = nil;
+	txtUID.text = nil;
+	txtMessage.text = nil;
+	btnSend.enabled = FALSE;
+	
+}
+
+- (IBAction) btnSend_Click:(id)sender {
+	
+}
+
 
 
 /*

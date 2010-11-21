@@ -11,6 +11,14 @@
 
 @interface FirstViewController : UIViewController {
 
+	IBOutlet UITextField *txtUID;
+	IBOutlet UITextField *txtPhone;
+	IBOutlet UITextView *txtMessage;
+	IBOutlet UIButton *btnSend;
+	
 }
+
+- (IBAction) valueChanged:(id)sender;
+- (IBAction) touchDown:(id)sender;
 
 @end

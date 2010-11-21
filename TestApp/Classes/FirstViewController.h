@@ -9,16 +9,18 @@
 #import <UIKit/UIKit.h>
 
 
-@interface FirstViewController : UIViewController {
+@interface FirstViewController : UIViewController <UITextViewDelegate> {
 
 	IBOutlet UITextField *txtUID;
 	IBOutlet UITextField *txtPhone;
 	IBOutlet UITextView *txtMessage;
-	IBOutlet UIButton *btnSend;
+	IBOutlet UIBarButtonItem *btnSend;
+	IBOutlet UIBarButtonItem *btnCancel;
 	
 }
 
 - (IBAction) valueChanged:(id)sender;
-- (IBAction) touchDown:(id)sender;
+- (IBAction) btnCancel_Click:(id)sender;
+- (IBAction) btnSend_Click:(id)sender;
 
 @end

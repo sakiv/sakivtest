@@ -21,6 +21,7 @@
 		6F4C207012872F5E005A44D0 /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F4C206F12872F5E005A44D0 /* ThirdViewController.m */; };
 		6F4C207712873110005A44D0 /* MapView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6F4C207612873110005A44D0 /* MapView.xib */; };
 		6F4C20961287360C005A44D0 /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F4C20951287360C005A44D0 /* MapViewController.m */; };
+		6FD70C9C129F3FA100A38AED /* Proxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FD70C9B129F3FA100A38AED /* Proxy.m */; };
 		6FEC5B20128E324E007ED2EF /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FEC5B1F128E324E007ED2EF /* MapKit.framework */; };
 		6FEC5BC5128E4B8F007ED2EF /* Icon.black.png in Resources */ = {isa = PBXBuildFile; fileRef = 6FEC5BC2128E4B8F007ED2EF /* Icon.black.png */; };
 		6FEC5BC6128E4B8F007ED2EF /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 6FEC5BC3128E4B8F007ED2EF /* Icon.png */; };
@@ -49,6 +50,8 @@
 		6F4C207612873110005A44D0 /* MapView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MapView.xib; sourceTree = "<group>"; };
 		6F4C20941287360C005A44D0 /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
 		6F4C20951287360C005A44D0 /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
+		6FD70C9A129F3FA100A38AED /* Proxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Proxy.h; path = SMSService/Proxy.h; sourceTree = "<group>"; };
+		6FD70C9B129F3FA100A38AED /* Proxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Proxy.m; path = SMSService/Proxy.m; sourceTree = "<group>"; };
 		6FEC5B1F128E324E007ED2EF /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		6FEC5BC2128E4B8F007ED2EF /* Icon.black.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Icon.black.png; path = Images/Icon.black.png; sourceTree = "<group>"; };
 		6FEC5BC3128E4B8F007ED2EF /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Icon.png; path = Images/Icon.png; sourceTree = "<group>"; };
@@ -74,16 +77,8 @@
 		080E96DDFE201D6D7F000001 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				28216C950DB411BC00E5133A /* FirstViewController.h */,
-				28216C960DB411BC00E5133A /* FirstViewController.m */,
-				6F4C206E12872F5E005A44D0 /* ThirdViewController.h */,
-				6F4C206F12872F5E005A44D0 /* ThirdViewController.m */,
-				1D3623240D0F684500981E51 /* TestAppAppDelegate.h */,
-				1D3623250D0F684500981E51 /* TestAppAppDelegate.m */,
-				6F4C206B12872F39005A44D0 /* SecondViewController.h */,
-				6F4C206C12872F39005A44D0 /* SecondViewController.m */,
-				6F4C20941287360C005A44D0 /* MapViewController.h */,
-				6F4C20951287360C005A44D0 /* MapViewController.m */,
+				6F49335A129B455100BC7769 /* Controllers */,
+				6F493359129B454200BC7769 /* SMSService */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -138,6 +133,32 @@
 				6FEC5B1F128E324E007ED2EF /* MapKit.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6F493359129B454200BC7769 /* SMSService */ = {
+			isa = PBXGroup;
+			children = (
+				6FD70C9A129F3FA100A38AED /* Proxy.h */,
+				6FD70C9B129F3FA100A38AED /* Proxy.m */,
+			);
+			name = SMSService;
+			sourceTree = "<group>";
+		};
+		6F49335A129B455100BC7769 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				28216C950DB411BC00E5133A /* FirstViewController.h */,
+				28216C960DB411BC00E5133A /* FirstViewController.m */,
+				6F4C206E12872F5E005A44D0 /* ThirdViewController.h */,
+				6F4C206F12872F5E005A44D0 /* ThirdViewController.m */,
+				1D3623240D0F684500981E51 /* TestAppAppDelegate.h */,
+				1D3623250D0F684500981E51 /* TestAppAppDelegate.m */,
+				6F4C206B12872F39005A44D0 /* SecondViewController.h */,
+				6F4C206C12872F39005A44D0 /* SecondViewController.m */,
+				6F4C20941287360C005A44D0 /* MapViewController.h */,
+				6F4C20951287360C005A44D0 /* MapViewController.m */,
+			);
+			name = Controllers;
 			sourceTree = "<group>";
 		};
 		6FEC5B86128E3FA7007ED2EF /* Tabs */ = {
@@ -233,6 +254,7 @@
 				6F4C206D12872F39005A44D0 /* SecondViewController.m in Sources */,
 				6F4C207012872F5E005A44D0 /* ThirdViewController.m in Sources */,
 				6F4C20961287360C005A44D0 /* MapViewController.m in Sources */,
+				6FD70C9C129F3FA100A38AED /* Proxy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

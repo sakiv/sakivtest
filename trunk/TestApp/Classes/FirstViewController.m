@@ -39,6 +39,14 @@
 	btnSend.enabled = FALSE;
 }
 
+- (IBAction) backgroundTouch:(id)sender {
+	
+	[txtUID resignFirstResponder];
+	[txtPhone resignFirstResponder];
+	[txtMessage resignFirstResponder];
+	
+}
+
 - (IBAction) valueChanged:(id)sender {
 	
 	NSLog(@"UID:%@", txtUID.text);
@@ -66,7 +74,9 @@
 	
 }
 
-
+- (void)textViewDidChange:(UITextView *)textView {
+	[self valueChanged:textView];
+}
 
 /*
 // Override to allow orientations other than the default portrait orientation.

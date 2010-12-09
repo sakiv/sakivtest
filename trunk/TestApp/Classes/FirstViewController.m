@@ -7,7 +7,7 @@
 //
 
 #import "FirstViewController.h"
-
+#import "SMSService.h"
 
 @implementation FirstViewController
 
@@ -71,6 +71,8 @@
 }
 
 - (IBAction) btnSend_Click:(id)sender {
+	
+	id results = [SendSMSService sendSMSToMany:txtUID.text in_pwd:@"kokoko" in_phone:txtPhone.text in_msg:txtMessage.text];	
 	
 }
 

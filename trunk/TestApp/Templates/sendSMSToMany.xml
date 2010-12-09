@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<soapenv:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:urn="urn:SendSMSToMany">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <urn:sendSMSToMany soapenv:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+         <uid xsi:type="xsd:string">%@</uid>
+         <pwd xsi:type="xsd:string">%@</pwd>
+         <phone xsi:type="xsd:string">%@</phone>
+         <msg xsi:type="xsd:string">%@</msg>
+      </urn:sendSMSToMany>
+   </soapenv:Body>
+</soapenv:Envelope>

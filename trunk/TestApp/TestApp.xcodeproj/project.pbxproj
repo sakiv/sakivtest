@@ -22,7 +22,6 @@
 		6F4C207712873110005A44D0 /* MapView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6F4C207612873110005A44D0 /* MapView.xib */; };
 		6F4C20961287360C005A44D0 /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F4C20951287360C005A44D0 /* MapViewController.m */; };
 		6F7DD1FA12B0206B00CC2DA9 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F7DD1F912B0206B00CC2DA9 /* CFNetwork.framework */; };
-		6F7DD22312B0294F00CC2DA9 /* SMSService.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F7DD22212B0294F00CC2DA9 /* SMSService.m */; };
 		6FAA2E9912B0846B0020B108 /* sendSMSToMany.xml in Resources */ = {isa = PBXBuildFile; fileRef = 6FAA2E9812B0846B0020B108 /* sendSMSToMany.xml */; };
 		6FD70C9C129F3FA100A38AED /* Proxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FD70C9B129F3FA100A38AED /* Proxy.m */; };
 		6FEC5B20128E324E007ED2EF /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FEC5B1F128E324E007ED2EF /* MapKit.framework */; };
@@ -54,8 +53,6 @@
 		6F4C20941287360C005A44D0 /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
 		6F4C20951287360C005A44D0 /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
 		6F7DD1F912B0206B00CC2DA9 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
-		6F7DD22112B0294F00CC2DA9 /* SMSService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SMSService.h; path = SMSService/SMSService.h; sourceTree = "<group>"; };
-		6F7DD22212B0294F00CC2DA9 /* SMSService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SMSService.m; path = SMSService/SMSService.m; sourceTree = "<group>"; };
 		6FAA2E9812B0846B0020B108 /* sendSMSToMany.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = sendSMSToMany.xml; path = Templates/sendSMSToMany.xml; sourceTree = "<group>"; };
 		6FD70C9A129F3FA100A38AED /* Proxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Proxy.h; path = SMSService/Proxy.h; sourceTree = "<group>"; };
 		6FD70C9B129F3FA100A38AED /* Proxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Proxy.m; path = SMSService/Proxy.m; sourceTree = "<group>"; };
@@ -148,8 +145,6 @@
 		6F493359129B454200BC7769 /* SMSService */ = {
 			isa = PBXGroup;
 			children = (
-				6F7DD22112B0294F00CC2DA9 /* SMSService.h */,
-				6F7DD22212B0294F00CC2DA9 /* SMSService.m */,
 				6FD70C9A129F3FA100A38AED /* Proxy.h */,
 				6FD70C9B129F3FA100A38AED /* Proxy.m */,
 			);
@@ -276,7 +271,6 @@
 				6F4C207012872F5E005A44D0 /* ThirdViewController.m in Sources */,
 				6F4C20961287360C005A44D0 /* MapViewController.m in Sources */,
 				6FD70C9C129F3FA100A38AED /* Proxy.m in Sources */,
-				6F7DD22312B0294F00CC2DA9 /* SMSService.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
